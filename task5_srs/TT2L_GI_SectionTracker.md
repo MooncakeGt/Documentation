@@ -3,12 +3,12 @@
 ### **Low Mun Kit (Leader):**
 | Section                    | Subsection                | End Date |
 |----------------------------|---------------------------|----------|
-|3.1 Functions               |3.1.8 Approve Rides        |21/5/2025 |
-|                            |3.1.9 Manage Users         |21/5/2025 |
-|3.4 Interface Requirements  |3.4.1 System Interfaces    |21/5/2025 |
-|                            |3.4.2 User Interfaces      |21/5/2025 |
-|                            |3.4.3 Hardware Interfaces  |21/5/2025 |
-|                            |3.4.4 Software Interfaces  |21/5/2025 |
+|3.1 Functions               |3.1.8 Approve Rides        |22/5/2025 |
+|                            |3.1.9 Manage Users         |22/5/2025 |
+|3.4 Interface Requirements  |3.4.1 System Interfaces    |22/5/2025 |
+|                            |3.4.2 User Interfaces      |22/5/2025 |
+|                            |3.4.3 Hardware Interfaces  |22/5/2025 |
+|                            |3.4.4 Software Interfaces  |22/5/2025 |
 #### Checked by: _Desmond Goh Liarg Jiing_ 
 
 ### **Cheeng Tze Yuan(Member):**
