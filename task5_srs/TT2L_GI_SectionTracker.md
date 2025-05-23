@@ -42,12 +42,12 @@
 ### **Desmond Goh Liarg Jiing(Member):**
 | Section                           | Subsection                | End Date |
 |-----------------------------------|---------------------------|----------|
-|3.1 Functions                      |3.1.4 Set Preference       |          |
-|                                   |3.1.5 Review Drivers       |          |
-|                                   |3.1.6 View Parking Status  |          |
-|3.5 Logical Database Requirements  |-                          |          |
-|4.1 Verification Approach          |-                          |          |
-|4.2 Verification Criteria          |-                          |          |
+|3.1 Functions                      |3.1.4 Set Preference       |21/5/2025 |
+|                                   |3.1.5 Review Drivers       |21/5/2025 |
+|                                   |3.1.6 View Parking Status  |21/5/2025 |
+|3.5 Logical Database Requirements  |-                          |23/5/2025 |
+|4.1 Verification Approach          |-                          |22/5/2025 |
+|4.2 Verification Criteria          |-                          |22/5/2025 |
 #### Check by: _Put your name here_
 
 ### **Everyone:**
