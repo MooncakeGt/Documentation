@@ -9,7 +9,7 @@
 |                            |3.4.2 User Interfaces      |21/5/2025 |
 |                            |3.4.3 Hardware Interfaces  |21/5/2025 |
 |                            |3.4.4 Software Interfaces  |21/5/2025 |
-#### Check by: _Put your name here_ 
+#### Checked by: _Desmond Goh Liarg Jiing_ 
 
 ### **Cheeng Tze Yuan(Member):**
 | Section                     | Subsection                | End Date |
@@ -26,7 +26,7 @@
 |                             |3.1.3 Create Rides         |21/5/2025 |
 |3.2 Performance Requirements |-                          |21/5/2025 |
 |3.3 Usability Requirements   |-                          |21/5/2025 |
-#### Check by: _Low Mun Kit_
+#### Checked by: _Low Mun Kit_
 
 ### **Sam Jun Xiang(Member):**
 | Section                           | Subsection                | End Date |
@@ -37,7 +37,7 @@
 |3.7 Software System Attributes     |-                          |21/5/2025 |
 |3.8 Supporting Information         |-                          |21/5/2025 |
 |5.1 Assumptions and Dependencies   |-                          |23/5/2025 |
-#### Check by: _Cheeng Tze Yuan_
+#### Checked by: _Cheeng Tze Yuan_
 
 ### **Desmond Goh Liarg Jiing(Member):**
 | Section                           | Subsection                | End Date |
@@ -48,11 +48,11 @@
 |3.5 Logical Database Requirements  |-                          |23/5/2025 |
 |4.1 Verification Approach          |-                          |22/5/2025 |
 |4.2 Verification Criteria          |-                          |22/5/2025 |
-#### Check by: _Put your name here_
+#### Checked by: _Sam Jun Xiang_
 
 ### **Everyone:**
 | Section                           | Subsection                | End Date |
 |-----------------------------------|---------------------------|----------|
-|2. References                      |-                          |          | 
-|5.2 Acronyms and Abbreviations     |-                          |          |
-#### Check by: _Low Mun Kit_
+|2. References                      |-                          |23/5/2025 | 
+|5.2 Acronyms and Abbreviations     |-                          |23/5/2025 |
+#### Checked by: _Low Mun Kit_
