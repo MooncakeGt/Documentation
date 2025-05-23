@@ -36,7 +36,7 @@
 |3.6 Design Constraints             |-                          |21/5/2025 |
 |3.7 Software System Attributes     |-                          |21/5/2025 |
 |3.8 Supporting Information         |-                          |21/5/2025 |
-|5.1 Assumptions and Dependencies   |-                          |23/5/2025 |
+|5.1 Assumptions and Dependencies   |-                          |21/5/2025 |
 #### Check by: _Cheeng Tze Yuan_
 
 ### **Desmond Goh Liarg Jiing(Member):**
