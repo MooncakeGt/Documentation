@@ -1817,3 +1817,27 @@ TLS 1.2+: Transport Layer Security version 1.2 and above
 UI: User Interface
 
 XSS: Cross-Site Scirpting
+
+
+# Defects
+### Content    
+| No. | Content defects    | Where |
+| --- | -------- | ------- |
+| 1.  | No mention of requirement prioritization, stability, or criticality levels. Like, must, should, could. | Not present in SRS |
+| 2.  | There is no information on how performance will recover under failure conditions. | 3.2 Performace requirements |
+|     |    |     |
+
+### Documentation
+| No. | Documentation defects | Where |
+| --- | -------- | ------- |
+| 1.  | Not all requirements are uniquely labeled or numbered, which hinders tracking and change control. | whole document |
+| 2.  | Usability objectives are discussed in general terms but lack structure or measurable sub-requirements. | 3.3 Usability requirements |
+| 3.  | No clear labels or IDs for requirement types(functional/non-functional). | 3.0 Requirements - 3.3 Usability requirements |
+|     |     |    |
+
+### Agreement
+| No. | Agreement defects    | Where |
+| --- | -------- | ------- |
+| 1.  | The document does not describe how potential conflicts between stakeholders were identified or resolved. | Not present in SRS |
+| 2.  | No versioning, approval history, or record of changes. | Not present in SRS |
+|     |     |   |
