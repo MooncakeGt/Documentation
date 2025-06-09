@@ -1664,23 +1664,23 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 
 ### 3.8.2 Defect Summary
 #### A. Content Defects   
-| Req ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
-| ------- | -------- | ------- | ------ | ----- |
+| Defects ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
+| ----------- | -------- | ------- | ------ | ----- |
 | CD01.  | No mention of requirement prioritization, stability, or criticality levels. Like, must, should, could. | Not present in SRS | Tze Yuan | 3 |
 | CD02.  | There is no information on how performance will recover under failure conditions. | 3.2 Performace requirements | Tze Yuan | 4 |
 |     |    |     |   |
 
 #### B. Documentation Defects
-| Req ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
-| ------- | -------- | ------- | ------ | ----- |
+| Defects ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
+| ----------- | -------- | ------- | ------ | ----- |
 | DD01.  | Not all requirements are uniquely labeled or numbered, which hinders tracking and change control. | whole document | Tze Yuan | 5 |
 | DD02.  | Usability objectives are discussed in general terms but lack structure or measurable sub-requirements. | 3.3 Usability requirements | Tze Yuan | 3 |
 | DD03.  | No clear labels or IDs for requirement types(functional/non-functional). | 3.0 Requirements - 3.3 Usability requirements | Tze Yuan | 4 |
 |     |     |    |
 
 #### C. Agreement Defects
-| Req ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
-| ------- | -------- | ------- | ------ | ----- |
+| Defects ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
+| ----------- | -------- | ------- | ------ | ----- |
 | AD01.  | The document does not describe how potential conflicts between stakeholders were identified or resolved. | Not present in SRS | Tze Yuan | 5 |
 | AD02.  | No versioning, approval history, or record of changes. | Not present in SRS | Tze Yuan | 1 |
 |     |     |   |
@@ -1710,6 +1710,13 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | Student Name | Primary Responsibility | No. of Session Participated |
 | ------- | -------- | ------- |
 |         |          |         |
+
+### 3.8.8 Version Control
+| Version | change by | date | description |
+| ------- | --------- | ---- | ----------- |
+| V1.0    | Mun Kit   | 6/6/2025 | initial SRS |
+| V1.1    | Tze Yuan  | 6/7/2025 | defects found |
+| V1.2    |           |          |               |
 
 ## 4.1Verification Approach:
 
