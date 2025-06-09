@@ -1658,6 +1658,59 @@ These packaging and deployment instructions are considered part of the non-funct
 
 This section outlines the strategies and benchmarks used to verify that the Campus Ride sharing platform with Parking System Integration meets its intended requirements. Each verification phase is designed to validate system behavior, performance, usability, and compliance under real-world and stress conditions. The goal is to ensure the platform is robust, secure, user friendly, and aligned with MMU’s operational and regulatory standards.
 
+### 3.8.1 Validation Session
+| Session ID | Date and Time | Technique Section Reviewed | Participant & Role | No. of Defect |
+| ------- | -------- | ------- | ------- | -------- |
+
+### 3.8.2 Defect Summary
+#### A. Content Defects   
+| Req ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
+| ------- | -------- | ------- | ------ | ----- |
+| CD01.  | No mention of requirement prioritization, stability, or criticality levels. Like, must, should, could. | Not present in SRS | Tze Yuan | 3 |
+| CD02.  | There is no information on how performance will recover under failure conditions. | 3.2 Performace requirements | Tze Yuan | 4 |
+|     |    |     |   |
+
+#### B. Documentation Defects
+| Req ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
+| ------- | -------- | ------- | ------ | ----- |
+| DD01.  | Not all requirements are uniquely labeled or numbered, which hinders tracking and change control. | whole document | Tze Yuan | 5 |
+| DD02.  | Usability objectives are discussed in general terms but lack structure or measurable sub-requirements. | 3.3 Usability requirements | Tze Yuan | 3 |
+| DD03.  | No clear labels or IDs for requirement types(functional/non-functional). | 3.0 Requirements - 3.3 Usability requirements | Tze Yuan | 4 |
+|     |     |    |
+
+#### C. Agreement Defects
+| Req ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
+| ------- | -------- | ------- | ------ | ----- |
+| AD01.  | The document does not describe how potential conflicts between stakeholders were identified or resolved. | Not present in SRS | Tze Yuan | 5 |
+| AD02.  | No versioning, approval history, or record of changes. | Not present in SRS | Tze Yuan | 1 |
+|     |     |   |
+
+### 3.8.3 Conflict Analysis
+| Conflict ID | Conflict Description | Conflict Analysis | Stakeholders Involved | Session ID |
+| ------- | -------- | ------- | ------ | ----- |
+|        |          |          |         |      |
+
+### 3.8.4 Conflict Resolution
+| Conflict ID | Conflict Resolution Strategy | Resolved (Y/N) | Outcome (If Resolved) | Justification |
+| ------- | -------- | ------- | ------ | ----- |
+|        |          |          |         |      |
+
+### 3.8.5 Change Log
+| Change ID |	Req ID | Summary of Change | Proposed By | Date | Session ID |
+| ------- | -------- | ------- | ------ | ----- | ------|
+| CL01 | CD01,CD02,DD01,DD02,DD03,AD01,AD02 | Defects Found | Tze Yuan | 6/7/2025 | 3.8.2 | 
+| CL02 | - | reformat SRS.md according to template | Tze Yuan | 6/9/2025 | - |
+
+### 3.8.6 Requirements Traceability Matrix
+| Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
+| ------- | -------- | ------- | ------ | ----- | ------|
+|         |          |         |        |       |       | 
+
+### 3.8.7 Role in Requirements Validation, Negotiation & Management
+| Student Name | Primary Responsibility | No. of Session Participated |
+| ------- | -------- | ------- |
+|         |          |         |
+
 ## 4.1Verification Approach:
 
 A multi-layered verification strategy is adopted to ensure that each module of the system functions correctly and aligns with user expectations and institutional policies. The verification phases include:
@@ -1817,27 +1870,3 @@ TLS 1.2+: Transport Layer Security version 1.2 and above
 UI: User Interface
 
 XSS: Cross-Site Scirpting
-
-
-# Defects
-### Content    
-| No. | Content defects    | Where |
-| --- | -------- | ------- |
-| 1.  | No mention of requirement prioritization, stability, or criticality levels. Like, must, should, could. | Not present in SRS |
-| 2.  | There is no information on how performance will recover under failure conditions. | 3.2 Performace requirements |
-|     |    |     |
-
-### Documentation
-| No. | Documentation defects | Where |
-| --- | -------- | ------- |
-| 1.  | Not all requirements are uniquely labeled or numbered, which hinders tracking and change control. | whole document |
-| 2.  | Usability objectives are discussed in general terms but lack structure or measurable sub-requirements. | 3.3 Usability requirements |
-| 3.  | No clear labels or IDs for requirement types(functional/non-functional). | 3.0 Requirements - 3.3 Usability requirements |
-|     |     |    |
-
-### Agreement
-| No. | Agreement defects    | Where |
-| --- | -------- | ------- |
-| 1.  | The document does not describe how potential conflicts between stakeholders were identified or resolved. | Not present in SRS |
-| 2.  | No versioning, approval history, or record of changes. | Not present in SRS |
-|     |     |   |
