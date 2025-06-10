@@ -1668,10 +1668,14 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | ----------- | -------- | ------- | ------ | ----- |
 | CD01.  | No mention of requirement prioritization, stability, or criticality levels. Like, must, should, could. | Not present in SRS | Tze Yuan | 3 |
 | CD02.  | There is no information on how performance will recover under failure conditions. | 3.2 Performace requirements | Tze Yuan | 4 |
-|CD03.     |No defined behaviour or fallback when GPS or real-time vehicle tracking fails.   |3.1 Functions/Geolocation & Vehicle Tracking |Jun Xiang   |4
-CD04. |No specification on frequency or process for driver background checks.|3.1 Functions/Emergency Features & Admin Role|Jun Xiang|3
-CD05. |No error handling defined for failed parking sensor/gate integrations|3.1 Functions/Parking Management|Jun Xiang|4
-CD06.|Accessibility requirements are only discussed for user-facing interfaces, not for admin dashboards.|3.4.2 User Interfaces|Jun Xiang|4|
+| CD03.  | No defined behaviour or fallback when GPS or real-time vehicle tracking fails.   |3.1 Functions/Geolocation & Vehicle Tracking |Jun Xiang   | 4 |
+| CD04.  | No specification on frequency or process for driver background checks.|3.1 Functions/Emergency Features & Admin Role|Jun Xiang| 3 |
+| CD05.  | No error handling defined for failed parking sensor/gate integrations|3.1 Functions/Parking Management|Jun Xiang| 4 |
+| CD06.  | Accessibility requirements are only discussed for user-facing interfaces, not for admin dashboards.|3.4.2 User Interfaces|Jun Xiang| 4 |
+| CD07.  | No mention of data types for entity attributes. | 3.5 Logical Database Requirements|Desmond Goh| 4 | 
+| CD08.  | No design constraint mention on multilingual support. | 3.6 Design Constraints|Desmond Goh| 2 |
+| CD09.  | "Assumptions" and "Dependencies" blend with requirements in tone. | 5 Appendices|Desmond Goh| 3 |
+
 
 #### B. Documentation Defects
 | Defects ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
@@ -1679,16 +1683,19 @@ CD06.|Accessibility requirements are only discussed for user-facing interfaces, 
 | DD01.  | Not all requirements are uniquely labeled or numbered, which hinders tracking and change control. | whole document | Tze Yuan | 5 |
 | DD02.  | Usability objectives are discussed in general terms but lack structure or measurable sub-requirements. | 3.3 Usability requirements | Tze Yuan | 3 |
 | DD03.  | No clear labels or IDs for requirement types(functional/non-functional). | 3.0 Requirements - 3.3 Usability requirements | Tze Yuan | 4 |
-|DD04.     |No cross-referencing from functional requirements to corresponding use case or activity diagrams.     |3.1 Functions     |Jun Xiang|4
-DD05. |Inconsistent naming of features (e.g., “Ride Scheduling” vs. “Schedule Ride”) throughout the document.|3.1 Functions|Jun Xiang|3
-DD06. |Repetition of common features under different user roles without indicating if behavior or permissions differ.|3.1 Functions|Jun Xiang|2
+| DD04.  | No cross-referencing from functional requirements to corresponding use case or activity diagrams.     |3.1 Functions     |Jun Xiang| 4 |
+| DD05.  | Inconsistent naming of features (e.g., “Ride Scheduling” vs. “Schedule Ride”) throughout the document.|3.1 Functions|Jun Xiang| 3 |
+| DD06.  | Repetition of common features under different user roles without indicating if behavior or permissions differ.|3.1 Functions|Jun Xiang| 2 |
+| DD07.  | Heading formatting inconsistency. | 4 Verification Approach & Criteria | 2 |
+| DD08.  | Excessive vertical spaces. | 4 Verification Approach & Criteria | 2 |
 
 #### C. Agreement Defects
 | Defects ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
 | ----------- | -------- | ------- | ------ | ----- |
 | AD01.  | The document does not describe how potential conflicts between stakeholders were identified or resolved. | Not present in SRS | Tze Yuan | 5 |
 | AD02.  | No versioning, approval history, or record of changes. | Not present in SRS | Tze Yuan | 1 |
-|AD03.     |No record of stakeholder sign-off or approval indicating that all parties agreed to the final set of requirements.|Not present in SRS|Jun Xiang|4
+| AD03.  | No record of stakeholder sign-off or approval indicating that all parties agreed to the final set of requirements.|Not present in SRS|Jun Xiang| 4 |
+| AD04.  | IOS/Android platform support mentioned but not clearly linked to user types.| 3.6 Design Constraints |Desmond Goh| 2 |
 
 ### 3.8.3 Conflict Analysis
 | Conflict ID | Conflict Description | Conflict Analysis | Stakeholders Involved | Session ID |
@@ -1706,6 +1713,7 @@ DD06. |Repetition of common features under different user roles without indicati
 | CL01 | CD01,CD02,DD01,DD02,DD03,AD01,AD02 | Defects Found | Tze Yuan | 6/7/2025 | 3.8.2 | 
 | CL02 | - | reformat SRS.md according to template | Tze Yuan | 6/9/2025 | - |
 | CL03 | CD03,CD04,CD05,CD06,DD04,DD05,DD06,AD03 | Defects Found | Jun Xiang | 6/10/2025 | 3.8.2 |
+| CL04 | CD07,CD08,CD09,DD07,DD08,AD04 | Defects Found | Desmond Goh | 6/10/2025 | 3.8.2 |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
@@ -1723,6 +1731,7 @@ DD06. |Repetition of common features under different user roles without indicati
 | V1.0    | Mun Kit   | 6/6/2025 | initial SRS |
 | V1.1    | Tze Yuan  | 6/7/2025 | defects found |
 | V1.2    | Jun Xiang | 6/10/2025 | defects found |
+| V1.3    | Desmond Goh| 6/10/2025 | defects found |
 
 ## 4.1Verification Approach:
 
