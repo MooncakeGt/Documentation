@@ -1675,7 +1675,10 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CD07.  | No mention of data types for entity attributes. | 3.5 Logical Database Requirements|Desmond Goh| 4 | 
 | CD08.  | No design constraint mention on multilingual support. | 3.6 Design Constraints|Desmond Goh| 2 |
 | CD09.  | "Assumptions" and "Dependencies" blend with requirements in tone. | 5 Appendices|Desmond Goh| 3 |
-
+| CD10.  | Purpose is too generic and lacks measurable success criteria. | 1.1 Purpose | Mun Kit | 3 |
+| CD11.  | Scope does not mention system boundaries or out-of-scope items. | 1.2 Scope | Mun Kit | 3 |
+| CD12.  | MFA authentication lists for all roles, but does not explain methods. | 3.7 Software System Attributes | Mun Kit | 3 |
+| CD13.  | Cost analysis studies are not included.   | 3.8 Supporting Information | Mun Kit | 3 |
 
 #### B. Documentation Defects
 | Defects ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
@@ -1688,6 +1691,8 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | DD06.  | Repetition of common features under different user roles without indicating if behavior or permissions differ.|3.1 Functions|Jun Xiang| 2 |
 | DD07.  | Heading formatting inconsistency. | 4 Verification Approach & Criteria | 2 |
 | DD08.  | Excessive vertical spaces. | 4 Verification Approach & Criteria | 2 |
+| DD09.  | Definitions is incomplete — missing key terms like API, SOS, Delighter.| 1.4 Definitions | Mun Kit | 2 |
+| DD10.  | Uses an inconsistent format. | 1.4 Definitions | Mun Kit | 2 |
 
 #### C. Agreement Defects
 | Defects ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
@@ -1696,6 +1701,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | AD02.  | No versioning, approval history, or record of changes. | Not present in SRS | Tze Yuan | 1 |
 | AD03.  | No record of stakeholder sign-off or approval indicating that all parties agreed to the final set of requirements.|Not present in SRS|Jun Xiang| 4 |
 | AD04.  | IOS/Android platform support mentioned but not clearly linked to user types.| 3.6 Design Constraints |Desmond Goh| 2 |
+| AD05.  | References lacks citations for internal sources like survey/interview data. | 2 Reference | Mun Kit | 2 |
 
 ### 3.8.3 Conflict Analysis
 | Conflict ID | Conflict Description | Conflict Analysis | Stakeholders Involved | Session ID |
@@ -1714,6 +1720,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL02 | - | reformat SRS.md according to template | Tze Yuan | 6/9/2025 | - |
 | CL03 | CD03,CD04,CD05,CD06,DD04,DD05,DD06,AD03 | Defects Found | Jun Xiang | 6/10/2025 | 3.8.2 |
 | CL04 | CD07,CD08,CD09,DD07,DD08,AD04 | Defects Found | Desmond Goh | 6/10/2025 | 3.8.2 |
+| CL05 | CD10, CD11, CD12, CD13, DD09, DD10, AD05 | Defects Found | Mun Kit | 6/10/2025 | 3.8.2 |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
@@ -1732,6 +1739,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | V1.1    | Tze Yuan  | 6/7/2025 | defects found |
 | V1.2    | Jun Xiang | 6/10/2025 | defects found |
 | V1.3    | Desmond Goh| 6/10/2025 | defects found |
+| V1.4    | Mun Kit | 6/10/2025 | defects found |
 
 ## 4.1Verification Approach:
 
