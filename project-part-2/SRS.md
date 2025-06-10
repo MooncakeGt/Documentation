@@ -1689,8 +1689,8 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | DD04.  | No cross-referencing from functional requirements to corresponding use case or activity diagrams.     |3.1 Functions     |Jun Xiang| 4 |
 | DD05.  | Inconsistent naming of features (e.g., “Ride Scheduling” vs. “Schedule Ride”) throughout the document.|3.1 Functions|Jun Xiang| 3 |
 | DD06.  | Repetition of common features under different user roles without indicating if behavior or permissions differ.|3.1 Functions|Jun Xiang| 2 |
-| DD07.  | Heading formatting inconsistency. | 4 Verification Approach & Criteria | 2 |
-| DD08.  | Excessive vertical spaces. | 4 Verification Approach & Criteria | 2 |
+| DD07.  | Heading formatting inconsistency. | 4 Verification Approach & Criteria |Desmond Goh| 2 |
+| DD08.  | Excessive vertical spaces. | 4 Verification Approach & Criteria |Desmond Goh| 2 |
 | DD09.  | Definitions is incomplete — missing key terms like API, SOS, Delighter.| 1.4 Definitions | Mun Kit | 2 |
 | DD10.  | Uses an inconsistent format. | 1.4 Definitions | Mun Kit | 2 |
 
