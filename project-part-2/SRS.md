@@ -1706,8 +1706,9 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 ### 3.8.3 Conflict Analysis
 | Conflict ID | Conflict Description | Conflict Analysis | Stakeholders Involved | Session ID |
 | ------- | -------- | ------- | ------ | ----- |
-|        |          |          |         |      |
-
+| CONF01 | Cash payment is mentioned as a toggle option but the SRS also emphasizes secure, traceable digital payments (Provide detailed records of past payments). | Cash payments may violate campus security policies. | Riders, Drivers | 1.3.2 Product Functions |
+| CONF02 | Regular background screening for drivers is required, but there's no mention of how driver's background data privacy will be maintained. | Conflict between safety and data protection. | Drivers | 3.4.2 System Interfaces (External Systems) |
+|  |  |  |  |  |
 ### 3.8.4 Conflict Resolution
 | Conflict ID | Conflict Resolution Strategy | Resolved (Y/N) | Outcome (If Resolved) | Justification |
 | ------- | -------- | ------- | ------ | ----- |
@@ -1716,11 +1717,12 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 ### 3.8.5 Change Log
 | Change ID |	Req ID | Summary of Change | Proposed By | Date | Session ID |
 | ------- | -------- | ------- | ------ | ----- | ------|
-| CL01 | CD01,CD02,DD01,DD02,DD03,AD01,AD02 | Defects Found | Tze Yuan | 6/7/2025 | 3.8.2 | 
+| CL01 | CD01,CD02,DD01,DD02,DD03,AD01,AD02 | Defects Found | Tze Yuan | 6/7/2025 | 3.8.2 Defect Summary | 
 | CL02 | - | reformat SRS.md according to template | Tze Yuan | 6/9/2025 | - |
-| CL03 | CD03,CD04,CD05,CD06,DD04,DD05,DD06,AD03 | Defects Found | Jun Xiang | 6/10/2025 | 3.8.2 |
-| CL04 | CD07,CD08,CD09,DD07,DD08,AD04 | Defects Found | Desmond Goh | 6/10/2025 | 3.8.2 |
-| CL05 | CD10, CD11, CD12, CD13, DD09, DD10, AD05 | Defects Found | Mun Kit | 6/10/2025 | 3.8.2 |
+| CL03 | CD03,CD04,CD05,CD06,DD04,DD05,DD06,AD03 | Defects Found | Jun Xiang | 6/10/2025 | 3.8.2 Defect Summary |
+| CL04 | CD07,CD08,CD09,DD07,DD08,AD04 | Defects Found | Desmond Goh | 6/10/2025 | 3.8.2 Defect Summary |
+| CL05 | CD10, CD11, CD12, CD13, DD09, DD10, AD05 | Defects Found | Mun Kit | 6/10/2025 | 3.8.2 Defect Summary |
+| CL06 | CONF01,CONF02 | Analyze conflict | Tze Yuan | 6/11/2025 | 3.8.3 Conflict Analysis |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
