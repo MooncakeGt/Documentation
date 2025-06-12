@@ -1667,7 +1667,6 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | Defects ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
 | ----------- | -------- | ------- | ------ | ----- |
 | CD01.  | No mention of requirement prioritization, stability, or criticality levels. Like, must, should, could. | Not present in SRS | Tze Yuan | 3 |
-| CD02.  | There is no information on how performance will recover under failure conditions. | 3.2 Performace requirements | Tze Yuan | 4 |
 | CD03.  | No defined behaviour or fallback when GPS or real-time vehicle tracking fails.   |3.1 Functions/Geolocation & Vehicle Tracking |Jun Xiang   | 4 |
 | CD04.  | No specification on frequency or process for driver background checks.|3.1 Functions/Emergency Features & Admin Role|Jun Xiang| 3 |
 | CD05.  | No error handling defined for failed parking sensor/gate integrations|3.1 Functions/Parking Management|Jun Xiang| 4 |
@@ -1707,13 +1706,13 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | Conflict ID | Conflict Description | Conflict Analysis | Stakeholders Involved | Session ID |
 | ------- | -------- | ------- | ------ | ----- |
 | CONF01 | Cash payment is mentioned as a toggle option but the SRS also emphasizes secure, traceable digital payments (Provide detailed records of past payments). | Cash payments may violate campus security policies. | Riders, Drivers | 1.3.2 Product Functions |
-| CONF02 | Regular background screening for drivers is required, but there's no mention of how driver's background data privacy will be maintained. | Conflict between safety and data protection. | Drivers | 3.4.2 System Interfaces (External Systems) |
+| CONF02 | Regular background screening for drivers is required, but there's no mention of how driver's background data privacy will be maintained. | Conflict between driver background screening and data privacy. | Drivers | 3.4.2 System Interfaces (External Systems) |
 |  |  |  |  |  |
 ### 3.8.4 Conflict Resolution
 | Conflict ID | Conflict Resolution Strategy | Resolved (Y/N) | Outcome (If Resolved) | Justification |
 | ------- | -------- | ------- | ------ | ----- |
-|        |          |          |         |      |
-
+| CONF01 | Restrict cash payment to specific low-risk scenarios, like verified users with a completed ride history. Any cash transactions must have a manual receipt. The cash payment option should be disabled by default in system settings and enabled only when the user chooses. | Y | The cash payment feature remains available but may only be activated under strict administrative control, with all transactions fully documented. | Applying manual traceability controls and limiting access to trusted users balances usability with system security. |
+| CONF02 | Implement background check integration with third-party services that return only a pass/fail verification status. Store the verification time and approval flag only, instead of raw background data. Must ensure users are informed of this process before they apply to become a driver. | Y | Driver background screening retained, but the platform stores minimal personal data. | Limited data storage can reduce the risk of data leaks and ensure that drivers' background data is protected. It also improves user trust and transparency. |
 ### 3.8.5 Change Log
 | Change ID |	Req ID | Summary of Change | Proposed By | Date | Session ID |
 | ------- | -------- | ------- | ------ | ----- | ------|
@@ -1723,6 +1722,9 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL04 | CD07,CD08,CD09,DD07,DD08,AD04 | Defects Found | Desmond Goh | 6/10/2025 | 3.8.2 Defect Summary |
 | CL05 | CD10, CD11, CD12, CD13, DD09, DD10, AD05 | Defects Found | Mun Kit | 6/10/2025 | 3.8.2 Defect Summary |
 | CL06 | CONF01,CONF02 | Analyze conflict | Tze Yuan | 6/11/2025 | 3.8.3 Conflict Analysis |
+| CL07 | CD02 | Removed defects according to requirement | Tze Yuan | 6/12/2025 | 3.8.2 Defects Summary |
+| CL08 | CONF01, CONF02 | Done conflict resolution for CONF01 and CONF02 | Tze Yuan | 6/12/2025 | 3.8.4 Conflict Resolution | 
+
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
@@ -1742,6 +1744,8 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | V1.2    | Jun Xiang | 6/10/2025 | defects found |
 | V1.3    | Desmond Goh| 6/10/2025 | defects found |
 | V1.4    | Mun Kit | 6/10/2025 | defects found |
+| V1.5    | Tze Yuan | 6/11/2025 | analyzed conflicts |
+| V1.6    | Tze Yuan | 6/12/2025 | remove unnecessary defects, update conflict resolution |
 
 ## 4.1Verification Approach:
 
