@@ -9,7 +9,7 @@
 | added defects CD10, CD11, CD12, CD13, DD09, DD10, AD05|   6/10/2025         |     Mun Kit         |    Defects Found                      |
 | added conflict analysis CONF01,CONF02            |  6/11/2025 | Tze Yuan     | Analyzed conflicts       |
 | Done conflict resolution for CONF01 and CONF02   |  6/12/2025 | Tze Yuan     | Done conflicts resolution |
-|                                                  |            |              |                          |
+| Done conflict analysis and conflict resolution for CONF03,CONF04   |  6/13/2025  | Jun Xiang   | Analyzed conflicts and Done conflicts resolution        |
 |                                                  |            |              |                          |
 |                                                  |            |              |                          |
 |                                                  |            |              |                          |

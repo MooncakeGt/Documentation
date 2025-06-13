@@ -1707,12 +1707,16 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | ------- | -------- | ------- | ------ | ----- |
 | CONF01 | Cash payment is mentioned as a toggle option but the SRS also emphasizes secure, traceable digital payments (Provide detailed records of past payments). | Cash payments may violate campus security policies. | Riders, Drivers | 1.3.2 Product Functions |
 | CONF02 | Regular background screening for drivers is required, but there's no mention of how driver's background data privacy will be maintained. | Conflict between driver background screening and data privacy. | Drivers | 3.4.2 System Interfaces (External Systems) |
-|  |  |  |  |  |
+| CONF03  | The system assumes all users have reliable internet and GPS-enabled devices  | May exclude or frustrate users with older devices or unstable networks, conflicting with usability goals.  | Riders, Drivers  | 1.3.3 User Characteristics  |
+| CONF04 |  Admins are expected to manage user disputes, but the system lacks formal features for dispute tracking/resolution. | Without dedicated tools, this may increase support load and leave disputes unresolved.| Admins, Riders, Drivers | 3.1 Functions|
 ### 3.8.4 Conflict Resolution
 | Conflict ID | Conflict Resolution Strategy | Resolved (Y/N) | Outcome (If Resolved) | Justification |
 | ------- | -------- | ------- | ------ | ----- |
 | CONF01 | Restrict cash payment to specific low-risk scenarios, like verified users with a completed ride history. Any cash transactions must have a manual receipt. The cash payment option should be disabled by default in system settings and enabled only when the user chooses. | Y | The cash payment feature remains available but may only be activated under strict administrative control, with all transactions fully documented. | Applying manual traceability controls and limiting access to trusted users balances usability with system security. |
 | CONF02 | Implement background check integration with third-party services that return only a pass/fail verification status. Store the verification time and approval flag only, instead of raw background data. Must ensure users are informed of this process before they apply to become a driver. | Y | Driver background screening retained, but the platform stores minimal personal data. | Limited data storage can reduce the risk of data leaks and ensure that drivers' background data is protected. It also improves user trust and transparency. |
+| CONF03 | Implement an offline-mode warning and a fallback manual ride/parking request flow when GPS or internet is unavailable. | N | Feature not yet implemented. Users without connectivity may face degraded experience. | Requires further development and stakeholder review; currently tracked as a usability risk.|
+| CONF04 | Add a dispute management module for admins, including case logging, resolution history, and escalation workflows. | N | Feature identified for future release. Admins currently handle disputes manually via support tickets. | Resource constraints delayed implementation; included in backlog based on admin feedback.|
+
 ### 3.8.5 Change Log
 | Change ID |	Req ID | Summary of Change | Proposed By | Date | Session ID |
 | ------- | -------- | ------- | ------ | ----- | ------|
@@ -1723,7 +1727,10 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL05 | CD10, CD11, CD12, CD13, DD09, DD10, AD05 | Defects Found | Mun Kit | 6/10/2025 | 3.8.2 Defect Summary |
 | CL06 | CONF01,CONF02 | Analyze conflict | Tze Yuan | 6/11/2025 | 3.8.3 Conflict Analysis |
 | CL07 | CD02 | Removed defects according to requirement | Tze Yuan | 6/12/2025 | 3.8.2 Defects Summary |
-| CL08 | CONF01, CONF02 | Done conflict resolution for CONF01 and CONF02 | Tze Yuan | 6/12/2025 | 3.8.4 Conflict Resolution | 
+| CL08 | CONF01, CONF02 | Done conflict resolution for CONF01 and CONF02 | Tze Yuan | 6/12/2025 | 3.8.4 Conflict Resolution |
+| CL09 | CONF03, CONF04 | Analyze conflicts for CONF03 and CONF04 | Jun Xiang | 6/13/2025 | 3.8.3 Conflict Analysis |
+| CL10 | CONF03, CONF04 | Done conflict resolution for CONF03 and CONF04 | Jun Xiang | 6/13/2025 | 3.8.4 Conflict Resolution |
+
 
 
 ### 3.8.6 Requirements Traceability Matrix
@@ -1746,6 +1753,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | V1.4    | Mun Kit | 6/10/2025 | defects found |
 | V1.5    | Tze Yuan | 6/11/2025 | analyzed conflicts |
 | V1.6    | Tze Yuan | 6/12/2025 | remove unnecessary defects, update conflict resolution |
+| V1.7    | Jun Xiang | 6/13/2025 | analyzed conflicts , update conflict resolution |
 
 ## 4.1Verification Approach:
 
