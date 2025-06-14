@@ -1673,7 +1673,6 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CD06.  | Accessibility requirements are only discussed for user-facing interfaces, not for admin dashboards.|3.4.2 User Interfaces|Jun Xiang| 4 |
 | CD07.  | No mention of data types for entity attributes. | 3.5 Logical Database Requirements|Desmond Goh| 4 | 
 | CD08.  | No design constraint mention on multilingual support. | 3.6 Design Constraints|Desmond Goh| 2 |
-| CD09.  | "Assumptions" and "Dependencies" blend with requirements in tone. | 5 Appendices|Desmond Goh| 3 |
 | CD10.  | Purpose is too generic and lacks measurable success criteria. | 1.1 Purpose | Mun Kit | 3 |
 | CD11.  | Scope does not mention system boundaries or out-of-scope items. | 1.2 Scope | Mun Kit | 3 |
 | CD12.  | MFA authentication lists for all roles, but does not explain methods. | 3.7 Software System Attributes | Mun Kit | 3 |
@@ -1709,6 +1708,8 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CONF02 | Regular background screening for drivers is required, but there's no mention of how driver's background data privacy will be maintained. | Conflict between driver background screening and data privacy. | Drivers | 3.4.2 System Interfaces (External Systems) |
 | CONF03  | The system assumes all users have reliable internet and GPS-enabled devices  | May exclude or frustrate users with older devices or unstable networks, conflicting with usability goals.  | Riders, Drivers  | 1.3.3 User Characteristics  |
 | CONF04 |  Admins are expected to manage user disputes, but the system lacks formal features for dispute tracking/resolution. | Without dedicated tools, this may increase support load and leave disputes unresolved.| Admins, Riders, Drivers | 3.1 Functions|
+| CONF05 | Section 3.5 includes real-time notification features, but Section 3.6 does not mention any constraints or technology support for real-time delivery. | User may receive delayed or unreliable notifications. | Users | 3.5 Logical Requirements, 3.6 Design Constraints|
+
 ### 3.8.4 Conflict Resolution
 | Conflict ID | Conflict Resolution Strategy | Resolved (Y/N) | Outcome (If Resolved) | Justification |
 | ------- | -------- | ------- | ------ | ----- |
@@ -1716,6 +1717,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CONF02 | Implement background check integration with third-party services that return only a pass/fail verification status. Store the verification time and approval flag only, instead of raw background data. Must ensure users are informed of this process before they apply to become a driver. | Y | Driver background screening retained, but the platform stores minimal personal data. | Limited data storage can reduce the risk of data leaks and ensure that drivers' background data is protected. It also improves user trust and transparency. |
 | CONF03 | Implement an offline-mode warning and a fallback manual ride/parking request flow when GPS or internet is unavailable. | N | Feature not yet implemented. Users without connectivity may face degraded experience. | Requires further development and stakeholder review; currently tracked as a usability risk.|
 | CONF04 | Add a dispute management module for admins, including case logging, resolution history, and escalation workflows. | N | Feature identified for future release. Admins currently handle disputes manually via support tickets. | Resource constraints delayed implementation; included in backlog based on admin feedback.|
+| CONF05 | Add a real-time delivery requirements (notifications should be delivered within 5 seconds). | N | Notifications may still be delayed or inconsistent depending on future design decisions. | Real-time notifications are important for user experience, but current design does not gurantee delivery speed.Futher development is required.|
 
 ### 3.8.5 Change Log
 | Change ID |	Req ID | Summary of Change | Proposed By | Date | Session ID |
@@ -1730,6 +1732,8 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL08 | CONF01, CONF02 | Done conflict resolution for CONF01 and CONF02 | Tze Yuan | 6/12/2025 | 3.8.4 Conflict Resolution |
 | CL09 | CONF03, CONF04 | Analyze conflicts for CONF03 and CONF04 | Jun Xiang | 6/13/2025 | 3.8.3 Conflict Analysis |
 | CL10 | CONF03, CONF04 | Done conflict resolution for CONF03 and CONF04 | Jun Xiang | 6/13/2025 | 3.8.4 Conflict Resolution |
+| CL11 | CD09 | Removed defects according to requirement | Desmond Goh | 6/14/2025 | 3.8.2 Defects Summary |
+| CL10 | CONF05 | Done conflict analyze and conflict resolution for CONF05 | Desmond Goh | 6/14/2025 | 3.8.4 Conflict Resolution |
 
 
 
@@ -1754,6 +1758,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | V1.5    | Tze Yuan | 6/11/2025 | analyzed conflicts |
 | V1.6    | Tze Yuan | 6/12/2025 | remove unnecessary defects, update conflict resolution |
 | V1.7    | Jun Xiang | 6/13/2025 | analyzed conflicts , update conflict resolution |
+| V1.8    | Desmond Goh| 6/14/2025 | remove unnecessary defects, analyzed conflicts, update conflict resolution |
 
 ## 4.1Verification Approach:
 
