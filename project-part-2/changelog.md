@@ -10,7 +10,7 @@
 | added conflict analysis CONF01,CONF02            |  6/11/2025 | Tze Yuan     | Analyzed conflicts       |
 | Done conflict resolution for CONF01 and CONF02   |  6/12/2025 | Tze Yuan     | Done conflicts resolution |
 | Done conflict analysis and conflict resolution for CONF03,CONF04   |  6/13/2025  | Jun Xiang   | Analyzed conflicts and Done conflicts resolution        |
-|                                                  |            |              |                          |
+| Done conflict analysis and conflict resolution for CONF05  | 6/14/2025 | Desmond Goh | Analyzed conflicts and Done conflicts resolution  |
 |                                                  |            |              |                          |
 |                                                  |            |              |                          |
 |                                                  |            |              |                          |
