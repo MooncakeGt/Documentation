@@ -1709,6 +1709,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CONF03  | The system assumes all users have reliable internet and GPS-enabled devices  | May exclude or frustrate users with older devices or unstable networks, conflicting with usability goals.  | Riders, Drivers  | 1.3.3 User Characteristics  |
 | CONF04 |  Admins are expected to manage user disputes, but the system lacks formal features for dispute tracking/resolution. | Without dedicated tools, this may increase support load and leave disputes unresolved.| Admins, Riders, Drivers | 3.1 Functions|
 | CONF05 | Section 3.5 includes real-time notification features, but Section 3.6 does not mention any constraints or technology support for real-time delivery. | User may receive delayed or unreliable notifications. | Users | 3.5 Logical Requirements, 3.6 Design Constraints|
+| CONF06 | Section 3.8 Cost analysis is listed as missing, but the SRS doesn’t mention whether one is planned or not needed. | A key project planning component is missing without justification. | Admin | 3.8 Supporting Information|
 
 ### 3.8.4 Conflict Resolution
 | Conflict ID | Conflict Resolution Strategy | Resolved (Y/N) | Outcome (If Resolved) | Justification |
@@ -1718,6 +1719,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CONF03 | Implement an offline-mode warning and a fallback manual ride/parking request flow when GPS or internet is unavailable. | N | Feature not yet implemented. Users without connectivity may face degraded experience. | Requires further development and stakeholder review; currently tracked as a usability risk.|
 | CONF04 | Add a dispute management module for admins, including case logging, resolution history, and escalation workflows. | N | Feature identified for future release. Admins currently handle disputes manually via support tickets. | Resource constraints delayed implementation; included in backlog based on admin feedback.|
 | CONF05 | Add a real-time delivery requirements (notifications should be delivered within 5 seconds). | N | Notifications may still be delayed or inconsistent depending on future design decisions. | Real-time notifications are important for user experience, but current design does not gurantee delivery speed.Futher development is required.|
+| CONF06 | Add a clarification in Section 3.8: “No cost analysis was conducted for this phase; budget-related evaluation will be included during the system design phase if required.” | Y | No formal cost analysis has been conducted as part of this SRS. Stakeholders have agreed to focus on technical feasibility and user requirements in this phase. Budgetary evaluation will be addressed during the system design or procurement phase if required. | The statement ensures that all stakeholders understand the scope limitations of this SRS, while also setting clear expectations for when cost considerations will be addressed—namely, during the system design or procurement stage. |
 
 ### 3.8.5 Change Log
 | Change ID |	Req ID | Summary of Change | Proposed By | Date | Session ID |
@@ -1733,8 +1735,8 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL09 | CONF03, CONF04 | Analyze conflicts for CONF03 and CONF04 | Jun Xiang | 6/13/2025 | 3.8.3 Conflict Analysis |
 | CL10 | CONF03, CONF04 | Done conflict resolution for CONF03 and CONF04 | Jun Xiang | 6/13/2025 | 3.8.4 Conflict Resolution |
 | CL11 | CD09 | Removed defects according to requirement | Desmond Goh | 6/14/2025 | 3.8.2 Defects Summary |
-| CL10 | CONF05 | Done conflict analyze and conflict resolution for CONF05 | Desmond Goh | 6/14/2025 | 3.8.4 Conflict Resolution |
-
+| CL12 | CONF05 | Done conflict analyze and conflict resolution for CONF05 | Desmond Goh | 6/14/2025 | 3.8.4 Conflict Resolution |
+| CL13 | CONF06 | Done conflict analyze and conflict resolution for CONF06 | Mun Kit | 6/16/2025 | 3.8.3 Conflict Analysis, 3.8.4 Conflict Resolution |
 
 
 ### 3.8.6 Requirements Traceability Matrix
