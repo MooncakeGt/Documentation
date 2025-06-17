@@ -14,7 +14,7 @@
 | Done conflict analysis and conflict resolution for CONF06 | 6/16/2025  |  Mun Kit    |  Analyzed conflicts and Done conflicts resolution   |
 | added defects CD14, and tables added (3.8.9 , 3.8.10) | 6/17/2025 | Jun Xiang | Defects Found and table added  |
 | added goal G1,G2 and features F1,F2,F3,F4,F5,F6 | 6/17/2025 | Demsmond Goh  | Original srs document did not show it | 
-|                                                  |            |              |                          |
+| added features F6,F7,F8,F9,F10,F11 | 6/17/2025  | Jun Xiang | Original srs document did not show it |
 |                                                  |            |              |                          |
 |                                                  |            |              |                          |
 |                                                  |            |              |                          |
