@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f8d9d57b-79c7-4845-b485-b6e450ba323e)CSE 6224 Software Requirements ENG
+CSE 6224 Software Requirements ENG
 
 Software Requirements Specification (SRS)
 
@@ -1742,7 +1742,8 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL12 | CONF05 | Done conflict analyze and conflict resolution for CONF05 | Desmond Goh | 6/14/2025 | 3.8.4 Conflict Resolution |
 | CL13 | CONF06 | Done conflict analyze and conflict resolution for CONF06 | Mun Kit | 6/16/2025 | 3.8.3 Conflict Analysis, 3.8.4 Conflict Resolution |
 | CL14 | CD14 | Defects found, 3.8.10 Goals and 3.8.9 Features Table added | Jun Xiang | 6/17/2025 |  3.8.2 Defect Summary |
-| CL15 | G1,G2, F1,F2,F3,F4,F5,F6 | Added some goals and features | Demsmond Goh | 6/17/2025 | 3.8.9 Goals, 3.8.10 Features |
+| CL15 | G1,G2, F1,F2,F3,F4,F5,F6 | Added some goals and features | Desmond Goh | 6/17/2025 | 3.8.9 Goals, 3.8.10 Features |
+| CL15 | F6,F7,F8,F9,F10,F11 | Added some features | Jun Xiang | 6/17/2025 | 3.8.10 Features |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
@@ -1766,8 +1767,9 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | V1.6    | Tze Yuan | 6/12/2025 | remove unnecessary defects, update conflict resolution |
 | V1.7    | Jun Xiang | 6/13/2025 | analyzed conflicts , update conflict resolution |
 | V1.8    | Desmond Goh| 6/14/2025 | remove unnecessary defects, analyzed conflicts, update conflict resolution |
-| V1.9    | Jun Xiang| 6/17/2025| Added  |
+| V1.9    | Jun Xiang| 6/17/2025| defects found , added table for goals features |
 | V1.10    | Desmond Goh| 6/17/2025| Added and update Goals and features |
+| V1.11    | Jun Xiang| 6/17/2025| Added and update Features |
 
 ### 3.8.9 Goals
 | Goals ID | Goals Description |
@@ -1785,6 +1787,11 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 |  F4  | Real-time Vehicle Tracking| Tracks driver location live and shows ETA | Rider, Driver |
 |  F5  | Fare Estimation and Cost Splitting | Calculates and splits fares dynamically among riders | Rider, Driver |
 |  F6  | Payment and Wallet Integration  | Supports multiple payment methods, billing, and history  | Rider, Driver |
+| F7 | Ratings and Feedback  | Users rate drivers and submit suggestions  | Rider, Driver |
+| F8 | Safety and Emergency Tools | SOS button, trip sharing, trusted contacts | Rider, Driver|
+| F9 | Real-Time Parking Availability | Displays available campus parking slots | Rider, Driver|
+| F10 | Parking Reservation and Permit Management | Users can book parking spots and manage permits | Rider , Driver|
+| F11 | Automated Gate Access | RFID and license plate recognition for entry/exit | Rider, Driver |
 
 ## 4.1Verification Approach:
 
