@@ -1744,6 +1744,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL14 | CD14 | Defects found, 3.8.10 Goals and 3.8.9 Features Table added | Jun Xiang | 6/17/2025 |  3.8.2 Defect Summary |
 | CL15 | G1,G2, F1,F2,F3,F4,F5,F6 | Added some goals and features | Desmond Goh | 6/17/2025 | 3.8.9 Goals, 3.8.10 Features |
 | CL15 | F6,F7,F8,F9,F10,F11 | Added some features | Jun Xiang | 6/17/2025 | 3.8.10 Features |
+| CL16 | F12,F13,F14,F15,F16,F17,F18,F19,F20 | Added some features | 6/18/2025 | 3.8.10 Features |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
@@ -1766,10 +1767,11 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | V1.5    | Tze Yuan | 6/11/2025 | analyzed conflicts |
 | V1.6    | Tze Yuan | 6/12/2025 | remove unnecessary defects, update conflict resolution |
 | V1.7    | Jun Xiang | 6/13/2025 | analyzed conflicts , update conflict resolution |
-| V1.8    | Desmond Goh| 6/14/2025 | remove unnecessary defects, analyzed conflicts, update conflict resolution |
-| V1.9    | Jun Xiang| 6/17/2025| defects found , added table for goals features |
-| V1.10    | Desmond Goh| 6/17/2025| Added and update Goals and features |
-| V1.11    | Jun Xiang| 6/17/2025| Added and update Features |
+| V1.8    | Desmond Goh | 6/14/2025 | remove unnecessary defects, analyzed conflicts, update conflict resolution |
+| V1.9    | Jun Xiang | 6/17/2025 | defects found , added table for goals features |
+| V1.10   | Desmond Goh | 6/17/2025 | Added and update Goals and features |
+| V1.11   | Jun Xiang | 6/17/2025 | Added and update Features |
+| V1.12   | Tze Yuan | 6/18/2025 | Added some features in 3.8.10. Features |
 
 ### 3.8.9 Goals
 | Goals ID | Goals Description |
@@ -1781,17 +1783,27 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 ### 3.8.10 Features
 | Features ID | Features | Description | Role |
 | ----------- | -------- | ----------- | ---- |
-|  F1  | User Registration and Authentication   | Allows users to register and log in with MMU credentials | Rider, Driver |
-|  F2  | User Profile Management | Allows users to edit their personal information, contact details, preferences, ride history, and notification settings within the app. | Rider, Driver |
-|  F3  | Geolocation and Route Optimization | Uses GPS for pickup/drop-off and provides optimized routes | Rider, Driver |
-|  F4  | Real-time Vehicle Tracking| Tracks driver location live and shows ETA | Rider, Driver |
-|  F5  | Fare Estimation and Cost Splitting | Calculates and splits fares dynamically among riders | Rider, Driver |
-|  F6  | Payment and Wallet Integration  | Supports multiple payment methods, billing, and history  | Rider, Driver |
+| F1 | User Registration and Authentication   | Allows users to register and log in with MMU credentials | Rider, Driver |
+| F2 | User Profile Management | Allows users to edit their personal information, contact details, preferences, ride history, and notification settings within the app. | Rider, Driver |
+| F3 | Geolocation and Route Optimization | Uses GPS for pickup/drop-off and provides optimized routes | Rider, Driver |
+| F4 | Real-time Vehicle Tracking| Tracks driver location live and shows ETA | Rider, Driver |
+| F5 | Fare Estimation and Cost Splitting | Calculates and splits fares dynamically among riders | Rider, Driver |
+| F6 | Payment and Wallet Integration  | Supports multiple payment methods, billing, and history  | Rider, Driver |
 | F7 | Ratings and Feedback  | Users rate drivers and submit suggestions  | Rider, Driver |
 | F8 | Safety and Emergency Tools | SOS button, trip sharing, trusted contacts | Rider, Driver|
 | F9 | Real-Time Parking Availability | Displays available campus parking slots | Rider, Driver|
 | F10 | Parking Reservation and Permit Management | Users can book parking spots and manage permits | Rider , Driver|
 | F11 | Automated Gate Access | RFID and license plate recognition for entry/exit | Rider, Driver |
+| F12 | Parking Navigation | Provides in-app guidance to reserved parking spots | Rider, Driver |
+| F13 | Parking History Record | Provides past parking sessions and associatedfees | Rider, Driver |
+| F14 | Centralized Dashboard for Admin | Admins monitor ride and parking usage metrics | admin |
+| F15 | Analysis and report generator | Generate a data visualization reports | admin |
+| F16 | App content management | Admin manages FAQs, notifications, announcements | admin |
+| F17 | System Configuration | Allows admin to configure prices and rules | admin |
+| F18 | User Support and Dispute Management | Admin manage user complaints or disputes | admin |
+| F19 | System Policy and Permission Management | Admin handling user permissions or roles and system policies | admin |
+| F20 | Alert notification and maintenance issues | System alerts admin about parking slot or system issues | admin |
+
 
 ## 4.1Verification Approach:
 
