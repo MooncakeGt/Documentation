@@ -1742,6 +1742,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL12 | CONF05 | Done conflict analyze and conflict resolution for CONF05 | Desmond Goh | 6/14/2025 | 3.8.4 Conflict Resolution |
 | CL13 | CONF06 | Done conflict analyze and conflict resolution for CONF06 | Mun Kit | 6/16/2025 | 3.8.3 Conflict Analysis, 3.8.4 Conflict Resolution |
 | CL14 | CD14 | Defects found, 3.8.10 Goals and 3.8.9 Features Table added | Jun Xiang | 6/17/2025 |  3.8.2 Defect Summary |
+| CL15 | G1,G2, F1,F2,F3,F4,F5,F6 | Added some goals and features | Demsmond Goh | 6/17/2025 | 3.8.9 Goals, 3.8.10 Features |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
