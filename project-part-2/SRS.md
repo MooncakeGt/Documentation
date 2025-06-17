@@ -1765,15 +1765,25 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | V1.6    | Tze Yuan | 6/12/2025 | remove unnecessary defects, update conflict resolution |
 | V1.7    | Jun Xiang | 6/13/2025 | analyzed conflicts , update conflict resolution |
 | V1.8    | Desmond Goh| 6/14/2025 | remove unnecessary defects, analyzed conflicts, update conflict resolution |
+| V1.9    | Jun Xiang| 6/17/2025| Added  |
+| V1.10    | Desmond Goh| 6/17/2025| Added and update Goals and features |
 
 ### 3.8.9 Goals
 | Goals ID | Goals Description |
 | -------  | ----------------- |
+|    G1    |  Improve campus commuting experience and reduce traffic and parking congestion |
+|    G2    |  Promote sustainable transport and reduce carbon footprint through ride-sharing |
 |  |  |
+
 ### 3.8.10 Features
 | Features ID | Features | Description | Role |
 | ----------- | -------- | ----------- | ---- |
-|  |    |  |   |
+|  F1  | User Registration and Authentication   | Allows users to register and log in with MMU credentials | Rider, Driver |
+|  F2  | User Profile Management | Allows users to edit their personal information, contact details, preferences, ride history, and notification settings within the app. | Rider, Driver |
+|  F3  | Geolocation and Route Optimization | Uses GPS for pickup/drop-off and provides optimized routes | Rider, Driver |
+|  F4  | Real-time Vehicle Tracking| Tracks driver location live and shows ETA | Rider, Driver |
+|  F5  | Fare Estimation and Cost Splitting | Calculates and splits fares dynamically among riders | Rider, Driver |
+|  F6  | Payment and Wallet Integration  | Supports multiple payment methods, billing, and history  | Rider, Driver |
 
 ## 4.1Verification Approach:
 
