@@ -1,4 +1,4 @@
-CSE 6224 Software Requirements ENG
+![image](https://github.com/user-attachments/assets/f8d9d57b-79c7-4845-b485-b6e450ba323e)CSE 6224 Software Requirements ENG
 
 Software Requirements Specification (SRS)
 
@@ -1659,8 +1659,11 @@ These packaging and deployment instructions are considered part of the non-funct
 This section outlines the strategies and benchmarks used to verify that the Campus Ride sharing platform with Parking System Integration meets its intended requirements. Each verification phase is designed to validate system behavior, performance, usability, and compliance under real-world and stress conditions. The goal is to ensure the platform is robust, secure, user friendly, and aligned with MMU’s operational and regulatory standards.
 
 ### 3.8.1 Validation Session
-| Session ID | Date and Time | Technique Section Reviewed | Participant & Role | No. of Defect |
-| ------- | -------- | ------- | ------- | -------- |
+| Session ID | Date and Time | Technique | Section Reviewed | Participant & Role | No. of Defect |
+| ------- | -------- | ------- | ------- | -------- | -------- |
+| VS01 | 4/6/2025 , 12:03pm | Inspection | 1, 2, 3.7, 3.8 | Mun Kit (Inspector) | 7 |
+| VS02 | 5/6/2025 , 11:45pm | Inspection | 3.1, 3.2, 3.3, 3.4 | Jun Xiang, Tze Yuan (Inspectors) | 15 |
+| VS01 | 6/6/2025 , 10:34am | Inspection | 3.5, 3.6, 4, 5 | Desmond | 5 |
 
 ### 3.8.2 Defect Summary
 #### A. Content Defects   
@@ -1677,6 +1680,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CD11.  | Scope does not mention system boundaries or out-of-scope items. | 1.2 Scope | Mun Kit | 3 |
 | CD12.  | MFA authentication lists for all roles, but does not explain methods. | 3.7 Software System Attributes | Mun Kit | 3 |
 | CD13.  | Cost analysis studies are not included.   | 3.8 Supporting Information | Mun Kit | 3 |
+| CD14.  | No mention of features and goals. | Not present in SRS | Jun Xiang | 4 | 
 
 #### B. Documentation Defects
 | Defects ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
@@ -1737,7 +1741,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL11 | CD09 | Removed defects according to requirement | Desmond Goh | 6/14/2025 | 3.8.2 Defects Summary |
 | CL12 | CONF05 | Done conflict analyze and conflict resolution for CONF05 | Desmond Goh | 6/14/2025 | 3.8.4 Conflict Resolution |
 | CL13 | CONF06 | Done conflict analyze and conflict resolution for CONF06 | Mun Kit | 6/16/2025 | 3.8.3 Conflict Analysis, 3.8.4 Conflict Resolution |
-
+| CL14 | CD14 | Defects found, 3.8.10 Goals and 3.8.9 Features Table added | Jun Xiang | 6/17/2025 |  3.8.2 Defect Summary |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
@@ -1761,6 +1765,15 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | V1.6    | Tze Yuan | 6/12/2025 | remove unnecessary defects, update conflict resolution |
 | V1.7    | Jun Xiang | 6/13/2025 | analyzed conflicts , update conflict resolution |
 | V1.8    | Desmond Goh| 6/14/2025 | remove unnecessary defects, analyzed conflicts, update conflict resolution |
+
+### 3.8.9 Goals
+| Goals ID | Goals Description |
+| -------  | ----------------- |
+|  |  |
+### 3.8.10 Features
+| Features ID | Features | Description | Role |
+| ----------- | -------- | ----------- | ---- |
+|  |    |  |   |
 
 ## 4.1Verification Approach:
 
