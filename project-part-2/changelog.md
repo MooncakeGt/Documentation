@@ -16,7 +16,7 @@
 | added goal G1,G2 and features F1,F2,F3,F4,F5,F6 | 6/17/2025 | Demsmond Goh  | Original srs document did not show it | 
 | added features F6,F7,F8,F9,F10,F11 | 6/17/2025  | Jun Xiang | Original srs document did not show it |
 | added features F12,F13,F14,F15,F16,F17,F18,F19,F20 | 6/18/2025 | Tze Yuan | Original srs document did not show it |
-|                                                  |            |              |                          |
+| Updated Goals G3,G4                              |  6/18/2025 |   Tze Yuan   | Original srs document did not show Goals |
 |                                                  |            |              |                          |
 |                                                  |            |              |                          |
 |                                                  |            |              |                          |
