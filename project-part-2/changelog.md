@@ -21,7 +21,7 @@
 | added defects CD15                               |  6/18/2025 |   Tze Yuan   | Defects Found            |
 | reformat SRS.md by adding a new column on beside session ID | 6/18/2025 | Jun Xiang | better follow template formation   |
 | validation session updated                       |  6/18/2025 | Jun Xiang    | contribution updated     |
-|                                                  |            |              |                          |
+| update prioritization                            |  6/18/2025 | Tze Yuan     |  Revise SRS based on defects found      |
 |                                                  |            |              |                          |
 |                                                  |            |              |                          |
 |                                                  |            |              |                          |
