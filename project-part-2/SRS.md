@@ -1746,6 +1746,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL15 | F6,F7,F8,F9,F10,F11 | Added some features | Jun Xiang | 6/17/2025 | 3.8.10 Features |
 | CL16 | F12,F13,F14,F15,F16,F17,F18,F19,F20 | Added some features | Tze Yuan | 6/18/2025 | 3.8.10 Features |
 | CL17 | G3,G4 | Updated Goals | Tze Yuan | 6/18/2025 | 3.8.9. Features |
+| CL18 | G5 | Updated Goals | Jun Xiang | 6/18/2025 | 3.8.9. Features |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
@@ -1775,6 +1776,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | V1.11   | Jun Xiang | 6/17/2025 | Added and update Features |
 | V1.12   | Tze Yuan | 6/18/2025 | Added some features in 3.8.10. Features |
 | V1.13   | Tze Yuan | 6/18/2025 | updated Goals |
+| V1.13   | Jun Xiang | 6/18/2025 | updated Goals |
 
 
 
@@ -1785,6 +1787,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 |    G2    |  Promote sustainable transport and reduce carbon footprint through ride-sharing |
 |    G3    | Enhance user safety and emergency response |
 |    G4    | Increase administrative efficiency and decision-making with analytics |
+|    G5    | Ensure high usability, accessibility, and real-time responsiveness of the platform. |
 
 ### 3.8.10 Features
 | Features ID | Features | Description | Role |
