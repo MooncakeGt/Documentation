@@ -1725,7 +1725,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CONF06 | Add a clarification in Section 3.8: “No cost analysis was conducted for this phase; budget-related evaluation will be included during the system design phase if required.” | Y | No formal cost analysis has been conducted as part of this SRS. Stakeholders have agreed to focus on technical feasibility and user requirements in this phase. Budgetary evaluation will be addressed during the system design or procurement phase if required. | The statement ensures that all stakeholders understand the scope limitations of this SRS, while also setting clear expectations for when cost considerations will be addressed—namely, during the system design or procurement stage. |
 
 ### 3.8.5 Change Log
-| Change ID |	Req ID | Summary of Change | Proposed By | Date | Session ID | Session Reference |
+| Change ID |	Related ID | Summary of Change | Proposed By | Date | Session ID | Session Reference |
 | ------- | -------- | ------- | ------ | ----- | ------| ----- |
 | CL01 | CD01,CD02,DD01,DD02,DD03,AD01,AD02 | Defects Found | Tze Yuan | 6/7/2025 | VS01 | 3.8.2 Defect Summary | 
 | CL02 | - | reformat SRS.md according to template | Tze Yuan | 6/9/2025 | not present | - |
@@ -1750,6 +1750,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL20 | CD15 | Defects found | Tze Yuan | 6/18/2025 | VS02 |  3.1 functions , 3.2 use case specification |
 | CL21 | - | reformat SRS.md by adding new column beside session ID | Jun Xiang | 6/18/2025 | not present | - |
 | CL22 | - | validation session updated | Jun Xiang | 6/18/2025 | not present | - |
+| CL23 | - | update prioritization | Tze Yuan | 6/18/2025 | not present in SRS | 3.8.11 Prioritization |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
@@ -1784,9 +1785,6 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | V1.15   | Tze Yuan  | 6/18/2025 | defects found |
 | V1.16   | Jun Xiang | 6/18/2025 | reformat SRS by adding extra column,validation session updated  |
 
-
-
-
 ### 3.8.9 Goals
 | Goals ID | Goals Description |
 | -------  | ----------------- |
@@ -1820,6 +1818,29 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | F19 | System Policy and Permission Management | Admin handling user permissions or roles and system policies | admin |
 | F20 | Alert notification and maintenance issues | System alerts admin about parking slot or system issues | admin |
 
+### 3.8.11 Prioritization
+| Feature | Feature ID | Priority | Justification |
+| ------- | ---------- | -------- | ------------- |
+| User Registration and Authentication |     F1     | Must | Basic security access and user identification. Without these, no core functionality can be used. |
+| User Profile Management |     F2     | Should | Important for user personalization but not required to book or offer rides. |
+| Geolocation and Route Optimizatio |     F3     | Must | Important for ride matching and route planning. |
+| Real-time Vehicle Tracking |     F4     | Must | Key of ride safety, transparency, and user experience. |
+| Fare Estimation and Cost Splitting |     F5     | Should | Enhances fairness and usability, but users can technically still use the system without it. |
+| Payment and Wallet Integration |     F6     | Must | Multiple payment methods, billing, and history enhance reliability, and usability. |
+| Ratings and Feedback |     F7     |  |  |
+| Safety and Emergency Tools |     F8     |  |  |
+| Real-Time Parking Availability |     F9     |  |  |
+| Parking Reservation and Permit Management |     F10    |  |  |
+| Automated Gate Access |     F11    |  |  |
+| Parking Navigation |     F12    |  |  |
+| Parking History Record |     F13    |  |  |
+| Centralized Dashboard for Admin |     F14    |  |  |
+| Analysis and report generator |     F15    |  |  |
+| App content management |     F16    |  |  |
+| System Configuration |     F17    |  |  |
+| User Support and Dispute Management |     F18    |  |  |
+| System Policy and Permission Management |     F19    |  |  |
+| Alert notification and maintenance issues |     F20    |  |  |
 
 ## 4.1Verification Approach:
 
