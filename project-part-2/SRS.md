@@ -1745,6 +1745,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL15 | G1,G2, F1,F2,F3,F4,F5,F6 | Added some goals and features | Desmond Goh | 6/17/2025 | 3.8.9 Goals, 3.8.10 Features |
 | CL15 | F6,F7,F8,F9,F10,F11 | Added some features | Jun Xiang | 6/17/2025 | 3.8.10 Features |
 | CL16 | F12,F13,F14,F15,F16,F17,F18,F19,F20 | Added some features | 6/18/2025 | 3.8.10 Features |
+| CL17 | G3,G4 | Updated Goals | 6/18/2025 | 3.8.9. Features |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
@@ -1757,6 +1758,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 |         |          |         |
 
 ### 3.8.8 Version Control
+#### Repository Branch: Project Part 2
 | Version | change by | date | description |
 | ------- | --------- | ---- | ----------- |
 | V1.0    | Mun Kit   | 6/6/2025 | initial SRS |
@@ -1772,13 +1774,17 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | V1.10   | Desmond Goh | 6/17/2025 | Added and update Goals and features |
 | V1.11   | Jun Xiang | 6/17/2025 | Added and update Features |
 | V1.12   | Tze Yuan | 6/18/2025 | Added some features in 3.8.10. Features |
+| V1.13   | Tze Yuan | 6/18/2025 | updated Goals |
+
+
 
 ### 3.8.9 Goals
 | Goals ID | Goals Description |
 | -------  | ----------------- |
 |    G1    |  Improve campus commuting experience and reduce traffic and parking congestion |
 |    G2    |  Promote sustainable transport and reduce carbon footprint through ride-sharing |
-|  |  |
+|    G3    | Enhance user safety and emergency response |
+|    G4    | Increase administrative efficiency and decision-making with analytics |
 
 ### 3.8.10 Features
 | Features ID | Features | Description | Role |
