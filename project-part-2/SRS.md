@@ -1661,9 +1661,9 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 ### 3.8.1 Validation Session
 | Session ID | Date and Time | Technique | Section Reviewed | Participant & Role | No. of Defect |
 | ------- | -------- | ------- | ------- | -------- | -------- |
-| VS01 | 4/6/2025 , 12:03pm | Inspection | 1, 2, 3.7, 3.8 | Mun Kit (Inspector) | 7 |
-| VS02 | 5/6/2025 , 11:45pm | Inspection | 3.1, 3.2, 3.3, 3.4 | Jun Xiang, Tze Yuan (Inspectors) | 14 |
-| VS01 | 6/6/2025 , 10:34am | Inspection | 3.5, 3.6, 4, 5 | Desmond | 5 |
+| VS01 | 4/6/2025 , 12:03pm | Inspection | 1, 2, 3.7, 3.8 | Mun Kit, Tze Yuan, Jun Xiang, Desmond (Inspectors) | 7 |
+| VS02 | 5/6/2025 , 11:45pm | Inspection | 3.1, 3.2, 3.3, 3.4 | Mun Kit, Tze Yuan, Jun Xiang, Desmond (Inspectors) | 14 |
+| VS01 | 6/6/2025 , 10:34am | Inspection | 3.5, 3.6, 4, 5 | Mun Kit, Tze Yuan, Jun Xiang, Desmond (Inspectors) | 5 |
 
 ### 3.8.2 Defect Summary
 #### A. Content Defects   
@@ -1749,6 +1749,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL19 | CD04 , CD06 | Removed defects according to requirement | Jun Xiang | 6/18/2025 | VS01 | 3.8.2 Defect Summary |
 | CL20 | CD15 | Defects found | Tze Yuan | 6/18/2025 | VS02 |  3.1 functions , 3.2 use case specification |
 | CL21 | - | reformat SRS.md by adding new column beside session ID | Jun Xiang | 6/18/2025 | not present | - |
+| CL22 | - | validation session updated | Jun Xiang | 6/18/2025 | not present | - |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
@@ -1781,6 +1782,8 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | V1.13   | Jun Xiang | 6/18/2025 | updated Goals |
 | V1.14   | Jun Xiang | 6/18/2025 | remove unnecessary defects due to sufficient mention or lower priority impact in the current SRS scope .|
 | V1.15   | Tze Yuan  | 6/18/2025 | defects found |
+| V1.16   | Jun Xiang | 6/18/2025 | reformat SRS by adding extra column,validation session updated  |
+
 
 
 
