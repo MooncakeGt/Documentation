@@ -18,7 +18,7 @@
 | added features F12,F13,F14,F15,F16,F17,F18,F19,F20 | 6/18/2025 | Tze Yuan | Original srs document did not show it |
 | Updated Goals G3,G4                              |  6/18/2025 |   Tze Yuan   | Original srs document did not show Goals |
 | Updated Goals G5                                 |  6/18/2025 |   Jun Xiang  | Original srs document did not show Goals |
-|                                                  |            |              |                          |
+| added defects DD11                               |  6/18/2025 |   Tze Yuan   | Defects Found            |
 |                                                  |            |              |                          |
 |                                                  |            |              |                          |
 |                                                  |            |              |                          |
