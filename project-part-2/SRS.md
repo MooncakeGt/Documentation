@@ -1678,7 +1678,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CD11.  | Scope does not mention system boundaries or out-of-scope items. | 1.2 Scope | Mun Kit | 3 |
 | CD12.  | MFA authentication lists for all roles, but does not explain methods. | 3.7 Software System Attributes | Mun Kit | 3 |
 | CD13.  | Cost analysis studies are not included.   | 3.8 Supporting Information | Mun Kit | 3 |
-| CD14.  | No mention of features and goals. | Not present in SRS | Jun Xiang | 4 | 
+| CD14.  | No mention of features and goals. | Not present in SRS | Jun Xiang | 4 |
 
 #### B. Documentation Defects
 | Defects ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
@@ -1693,6 +1693,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | DD08.  | Excessive vertical spaces. | 4 Verification Approach & Criteria |Desmond Goh| 2 |
 | DD09.  | Definitions is incomplete — missing key terms like API, SOS, Delighter.| 1.4 Definitions | Mun Kit | 2 |
 | DD10.  | Uses an inconsistent format. | 1.4 Definitions | Mun Kit | 2 |
+| DD11.  | Inconsistent and different naming in use-case digram and use-case name | 3.1 functions , 3.2 use case specification | Tze Yuan | 2 |
 
 #### C. Agreement Defects
 | Defects ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
@@ -1746,6 +1747,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL17 | G3,G4 | Updated Goals | Tze Yuan | 6/18/2025 | 3.8.9. Features |
 | CL18 | G5 | Updated Goals | Jun Xiang | 6/18/2025 | 3.8.9. Features |
 | CL19 | CD04 , CD06 | Removed defects according to requirement | Jun Xiang | 6/18/2025 | 3.8.2 Defect Summary |
+| CL20 | DD11 | Defects found | Tze Yuan | 6/18/2025 |  3.1 functions , 3.2 use case specification |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
@@ -1777,6 +1779,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | V1.13   | Tze Yuan | 6/18/2025 | updated Goals |
 | V1.13   | Jun Xiang | 6/18/2025 | updated Goals |
 | V1.14   | Jun Xiang | 6/18/2025 | remove unnecessary defects due to sufficient mention or lower priority impact in the current SRS scope .|
+| V1.15   | Tze Yuan  | 6/18/2025 | defects found |
 
 
 
