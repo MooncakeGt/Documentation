@@ -1744,8 +1744,8 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL14 | CD14 | Defects found, 3.8.10 Goals and 3.8.9 Features Table added | Jun Xiang | 6/17/2025 |  3.8.2 Defect Summary |
 | CL15 | G1,G2, F1,F2,F3,F4,F5,F6 | Added some goals and features | Desmond Goh | 6/17/2025 | 3.8.9 Goals, 3.8.10 Features |
 | CL15 | F6,F7,F8,F9,F10,F11 | Added some features | Jun Xiang | 6/17/2025 | 3.8.10 Features |
-| CL16 | F12,F13,F14,F15,F16,F17,F18,F19,F20 | Added some features | 6/18/2025 | 3.8.10 Features |
-| CL17 | G3,G4 | Updated Goals | 6/18/2025 | 3.8.9. Features |
+| CL16 | F12,F13,F14,F15,F16,F17,F18,F19,F20 | Added some features | Tze Yuan | 6/18/2025 | 3.8.10 Features |
+| CL17 | G3,G4 | Updated Goals | Tze Yuan | 6/18/2025 | 3.8.9. Features |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
