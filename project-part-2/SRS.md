@@ -1662,57 +1662,57 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | Session ID | Date and Time | Technique | Section Reviewed | Participant & Role | No. of Defect |
 | ------- | -------- | ------- | ------- | -------- | -------- |
 | VS01 | 4/6/2025 , 12:03pm | Inspection | 1, 2, 3.7, 3.8 | Mun Kit (Inspector) | 7 |
-| VS02 | 5/6/2025 , 11:45pm | Inspection | 3.1, 3.2, 3.3, 3.4 | Jun Xiang, Tze Yuan (Inspectors) | 15 |
+| VS02 | 5/6/2025 , 11:45pm | Inspection | 3.1, 3.2, 3.3, 3.4 | Jun Xiang, Tze Yuan (Inspectors) | 14 |
 | VS01 | 6/6/2025 , 10:34am | Inspection | 3.5, 3.6, 4, 5 | Desmond | 5 |
 
 ### 3.8.2 Defect Summary
 #### A. Content Defects   
-| Defects ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
-| ----------- | -------- | ------- | ------ | ----- |
-| CD01.  | No mention of requirement prioritization, stability, or criticality levels. Like, must, should, could. | Not present in SRS | Tze Yuan | 3 |
-| CD03.  | No defined behaviour or fallback when GPS or real-time vehicle tracking fails.   |3.1 Functions/Geolocation & Vehicle Tracking |Jun Xiang   | 4 |
-| CD05.  | No error handling defined for failed parking sensor/gate integrations|3.1 Functions/Parking Management|Jun Xiang| 4 |
-| CD07.  | No mention of data types for entity attributes. | 3.5 Logical Database Requirements|Desmond Goh| 4 |
-| CD08.  | No design constraint mention on multilingual support. | 3.6 Design Constraints|Desmond Goh| 2 |
-| CD10.  | Purpose is too generic and lacks measurable success criteria. | 1.1 Purpose | Mun Kit | 3 |
-| CD11.  | Scope does not mention system boundaries or out-of-scope items. | 1.2 Scope | Mun Kit | 3 |
-| CD12.  | MFA authentication lists for all roles, but does not explain methods. | 3.7 Software System Attributes | Mun Kit | 3 |
-| CD13.  | Cost analysis studies are not included.   | 3.8 Supporting Information | Mun Kit | 3 |
-| CD14.  | No mention of features and goals. | Not present in SRS | Jun Xiang | 4 |
-| CD15.  | Inconsistent and different naming in use-case digram and use-case name | 3.1 functions , 3.2 use case specification | Tze Yuan | 2 |
+| Defects ID. | Defect Description | Session Reference | Session ID | Detected By | Severity (1–5) |
+| ----------- | -------- | ------- | ------- | ------ | ----- |
+| CD01.  | No mention of requirement prioritization, stability, or criticality levels. Like, must, should, could. | Not present in SRS | Not present in SRS | Tze Yuan | 3 |
+| CD03.  | No defined behaviour or fallback when GPS or real-time vehicle tracking fails.   |3.1 Functions/Geolocation & Vehicle Tracking | VS02 | Jun Xiang   | 4 |
+| CD05.  | No error handling defined for failed parking sensor/gate integrations|3.1 Functions/Parking Management | VS02 | Jun Xiang| 4 |
+| CD07.  | No mention of data types for entity attributes. | 3.5 Logical Database Requirements | VS01 |Desmond Goh| 4 |
+| CD08.  | No design constraint mention on multilingual support. | 3.6 Design Constraints | VS01 | Desmond Goh| 2 |
+| CD10.  | Purpose is too generic and lacks measurable success criteria. | 1.1 Purpose | VS01 | Mun Kit | 3 |
+| CD11.  | Scope does not mention system boundaries or out-of-scope items. | 1.2 Scope | VS01 | Mun Kit | 3 |
+| CD12.  | MFA authentication lists for all roles, but does not explain methods. | 3.7 Software System Attributes | VS01 | Mun Kit | 3 |
+| CD13.  | Cost analysis studies are not included.   | 3.8 Supporting Information | VS01 | Mun Kit | 3 |
+| CD14.  | No mention of features and goals. | Not present in SRS | Not present in SRS | Jun Xiang | 4 |
+| CD15.  | Inconsistent and different naming in use-case digram and use-case name | 3.1 functions , 3.2 use case specification | VS02 | Tze Yuan | 2 |
 
 #### B. Documentation Defects
-| Defects ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
-| ----------- | -------- | ------- | ------ | ----- |
-| DD01.  | Not all requirements are uniquely labeled or numbered, which hinders tracking and change control. | whole document | Tze Yuan | 5 |
-| DD02.  | Usability objectives are discussed in general terms but lack structure or measurable sub-requirements. | 3.3 Usability requirements | Tze Yuan | 3 |
-| DD03.  | No clear labels or IDs for requirement types(functional/non-functional). | 3.0 Requirements - 3.3 Usability requirements | Tze Yuan | 4 |
-| DD04.  | No cross-referencing from functional requirements to corresponding use case or activity diagrams.     |3.1 Functions     |Jun Xiang| 4 |
-| DD05.  | Inconsistent naming of features (e.g., “Ride Scheduling” vs. “Schedule Ride”) throughout the document.|3.1 Functions|Jun Xiang| 3 |
-| DD06.  | Repetition of common features under different user roles without indicating if behavior or permissions differ.|3.1 Functions|Jun Xiang| 2 |
-| DD07.  | Heading formatting inconsistency. | 4 Verification Approach & Criteria |Desmond Goh| 2 |
-| DD08.  | Excessive vertical spaces. | 4 Verification Approach & Criteria |Desmond Goh| 2 |
-| DD09.  | Definitions is incomplete — missing key terms like API, SOS, Delighter.| 1.4 Definitions | Mun Kit | 2 |
-| DD10.  | Uses an inconsistent format. | 1.4 Definitions | Mun Kit | 2 |
+| Defects ID. | Defect Description | Session Reference | Session ID | Detected By | Severity (1–5) |
+| ----------- | -------- | ------- | ------- | ------ | ----- |
+| DD01.  | Not all requirements are uniquely labeled or numbered, which hinders tracking and change control. | whole document | whole document | Tze Yuan | 5 |
+| DD02.  | Usability objectives are discussed in general terms but lack structure or measurable sub-requirements. | 3.3 Usability requirements | VS02 | Tze Yuan | 3 |
+| DD03.  | No clear labels or IDs for requirement types(functional/non-functional). | 3.0 Requirements - 3.3 Usability requirements | VS02 | Tze Yuan | 4 |
+| DD04.  | No cross-referencing from functional requirements to corresponding use case or activity diagrams.     |3.1 Functions     | VS02 |Jun Xiang| 4 |
+| DD05.  | Inconsistent naming of features (e.g., “Ride Scheduling” vs. “Schedule Ride”) throughout the document.|3.1 Functions | VS02 | Jun Xiang| 3 |
+| DD06.  | Repetition of common features under different user roles without indicating if behavior or permissions differ.|3.1 Functions | VS02 | Jun Xiang| 2 |
+| DD07.  | Heading formatting inconsistency. | 4 Verification Approach & Criteria | VS01 | Desmond Goh| 2 |
+| DD08.  | Excessive vertical spaces. | 4 Verification Approach & Criteria | VS01 | Desmond Goh| 2 |
+| DD09.  | Definitions is incomplete — missing key terms like API, SOS, Delighter.| 1.4 Definitions | VS01 | Mun Kit | 2 |
+| DD10.  | Uses an inconsistent format. | 1.4 Definitions | VS01 | Mun Kit | 2 |
 
 #### C. Agreement Defects
-| Defects ID. | Defect Description | Session ID | Detected By | Severity (1–5) |
-| ----------- | -------- | ------- | ------ | ----- |
-| AD01.  | The document does not describe how potential conflicts between stakeholders were identified or resolved. | Not present in SRS | Tze Yuan | 5 |
-| AD02.  | No versioning, approval history, or record of changes. | Not present in SRS | Tze Yuan | 1 |
-| AD03.  | No record of stakeholder sign-off or approval indicating that all parties agreed to the final set of requirements.|Not present in SRS|Jun Xiang| 4 |
-| AD04.  | IOS/Android platform support mentioned but not clearly linked to user types.| 3.6 Design Constraints |Desmond Goh| 2 |
-| AD05.  | References lacks citations for internal sources like survey/interview data. | 2 Reference | Mun Kit | 2 |
+| Defects ID. | Defect Description | Session Reference | Session ID | Detected By | Severity (1–5) |
+| ----------- | -------- | ------- | ------- | ------ | ----- |
+| AD01.  | The document does not describe how potential conflicts between stakeholders were identified or resolved. | Not present in SRS | Not present in SRS | Tze Yuan | 5 |
+| AD02.  | No versioning, approval history, or record of changes. | Not present in SRS | Not present in SRS | Tze Yuan | 1 |
+| AD03.  | No record of stakeholder sign-off or approval indicating that all parties agreed to the final set of requirements.|Not present in SRS| Not present in SRS | Jun Xiang| 4 |
+| AD04.  | IOS/Android platform support mentioned but not clearly linked to user types.| 3.6 Design Constraints | VS01 | Desmond Goh| 2 |
+| AD05.  | References lacks citations for internal sources like survey/interview data. | 2 Reference | VS01 | Mun Kit | 2 |
 
 ### 3.8.3 Conflict Analysis
-| Conflict ID | Conflict Description | Conflict Analysis | Stakeholders Involved | Session ID |
-| ------- | -------- | ------- | ------ | ----- |
-| CONF01 | Cash payment is mentioned as a toggle option but the SRS also emphasizes secure, traceable digital payments (Provide detailed records of past payments). | Cash payments may violate campus security policies. | Riders, Drivers | 1.3.2 Product Functions |
-| CONF02 | Regular background screening for drivers is required, but there's no mention of how driver's background data privacy will be maintained. | Conflict between driver background screening and data privacy. | Drivers | 3.4.2 System Interfaces (External Systems) |
-| CONF03  | The system assumes all users have reliable internet and GPS-enabled devices  | May exclude or frustrate users with older devices or unstable networks, conflicting with usability goals.  | Riders, Drivers  | 1.3.3 User Characteristics  |
-| CONF04 |  Admins are expected to manage user disputes, but the system lacks formal features for dispute tracking/resolution. | Without dedicated tools, this may increase support load and leave disputes unresolved.| Admins, Riders, Drivers | 3.1 Functions|
-| CONF05 | Section 3.5 includes real-time notification features, but Section 3.6 does not mention any constraints or technology support for real-time delivery. | User may receive delayed or unreliable notifications. | Users | 3.5 Logical Requirements, 3.6 Design Constraints|
-| CONF06 | Section 3.8 Cost analysis is listed as missing, but the SRS doesn’t mention whether one is planned or not needed. | A key project planning component is missing without justification. | Admin | 3.8 Supporting Information|
+| Conflict ID | Conflict Description | Conflict Analysis | Stakeholders Involved | Session ID | Session Reference |
+| ------- | -------- | ------- | ------ | ----- | ----- |
+| CONF01 | Cash payment is mentioned as a toggle option but the SRS also emphasizes secure, traceable digital payments (Provide detailed records of past payments). | Cash payments may violate campus security policies. | Riders, Drivers | VS01 | 1.3.2 Product Functions |
+| CONF02 | Regular background screening for drivers is required, but there's no mention of how driver's background data privacy will be maintained. | Conflict between driver background screening and data privacy. | Drivers | VS02 | 3.4.2 System Interfaces (External Systems) |
+| CONF03  | The system assumes all users have reliable internet and GPS-enabled devices  | May exclude or frustrate users with older devices or unstable networks, conflicting with usability goals.  | Riders, Drivers  | VS01 | 1.3.3 User Characteristics  |
+| CONF04 |  Admins are expected to manage user disputes, but the system lacks formal features for dispute tracking/resolution. | Without dedicated tools, this may increase support load and leave disputes unresolved.| Admins, Riders, Drivers | VS02 | 3.1 Functions|
+| CONF05 | Section 3.5 includes real-time notification features, but Section 3.6 does not mention any constraints or technology support for real-time delivery. | User may receive delayed or unreliable notifications. | Users | VS01 | 3.5 Logical Requirements, 3.6 Design Constraints|
+| CONF06 | Section 3.8 Cost analysis is listed as missing, but the SRS doesn’t mention whether one is planned or not needed. | A key project planning component is missing without justification. | Admin | VS01 | 3.8 Supporting Information|
 
 ### 3.8.4 Conflict Resolution
 | Conflict ID | Conflict Resolution Strategy | Resolved (Y/N) | Outcome (If Resolved) | Justification |
@@ -1725,29 +1725,30 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CONF06 | Add a clarification in Section 3.8: “No cost analysis was conducted for this phase; budget-related evaluation will be included during the system design phase if required.” | Y | No formal cost analysis has been conducted as part of this SRS. Stakeholders have agreed to focus on technical feasibility and user requirements in this phase. Budgetary evaluation will be addressed during the system design or procurement phase if required. | The statement ensures that all stakeholders understand the scope limitations of this SRS, while also setting clear expectations for when cost considerations will be addressed—namely, during the system design or procurement stage. |
 
 ### 3.8.5 Change Log
-| Change ID |	Req ID | Summary of Change | Proposed By | Date | Session ID |
-| ------- | -------- | ------- | ------ | ----- | ------|
-| CL01 | CD01,CD02,DD01,DD02,DD03,AD01,AD02 | Defects Found | Tze Yuan | 6/7/2025 | 3.8.2 Defect Summary | 
-| CL02 | - | reformat SRS.md according to template | Tze Yuan | 6/9/2025 | - |
-| CL03 | CD03,CD04,CD05,CD06,DD04,DD05,DD06,AD03 | Defects Found | Jun Xiang | 6/10/2025 | 3.8.2 Defect Summary |
-| CL04 | CD07,CD08,CD09,DD07,DD08,AD04 | Defects Found | Desmond Goh | 6/10/2025 | 3.8.2 Defect Summary |
-| CL05 | CD10, CD11, CD12, CD13, DD09, DD10, AD05 | Defects Found | Mun Kit | 6/10/2025 | 3.8.2 Defect Summary |
-| CL06 | CONF01,CONF02 | Analyze conflict | Tze Yuan | 6/11/2025 | 3.8.3 Conflict Analysis |
-| CL07 | CD02 | Removed defects according to requirement | Tze Yuan | 6/12/2025 | 3.8.2 Defects Summary |
-| CL08 | CONF01, CONF02 | Done conflict resolution for CONF01 and CONF02 | Tze Yuan | 6/12/2025 | 3.8.4 Conflict Resolution |
-| CL09 | CONF03, CONF04 | Analyze conflicts for CONF03 and CONF04 | Jun Xiang | 6/13/2025 | 3.8.3 Conflict Analysis |
-| CL10 | CONF03, CONF04 | Done conflict resolution for CONF03 and CONF04 | Jun Xiang | 6/13/2025 | 3.8.4 Conflict Resolution |
-| CL11 | CD09 | Removed defects according to requirement | Desmond Goh | 6/14/2025 | 3.8.2 Defects Summary |
-| CL12 | CONF05 | Done conflict analyze and conflict resolution for CONF05 | Desmond Goh | 6/14/2025 | 3.8.4 Conflict Resolution |
-| CL13 | CONF06 | Done conflict analyze and conflict resolution for CONF06 | Mun Kit | 6/16/2025 | 3.8.3 Conflict Analysis, 3.8.4 Conflict Resolution |
-| CL14 | CD14 | Defects found, 3.8.10 Goals and 3.8.9 Features Table added | Jun Xiang | 6/17/2025 |  3.8.2 Defect Summary |
-| CL15 | G1,G2, F1,F2,F3,F4,F5,F6 | Added some goals and features | Desmond Goh | 6/17/2025 | 3.8.9 Goals, 3.8.10 Features |
-| CL15 | F6,F7,F8,F9,F10,F11 | Added some features | Jun Xiang | 6/17/2025 | 3.8.10 Features |
-| CL16 | F12,F13,F14,F15,F16,F17,F18,F19,F20 | Added some features | Tze Yuan | 6/18/2025 | 3.8.10 Features |
-| CL17 | G3,G4 | Updated Goals | Tze Yuan | 6/18/2025 | 3.8.9. Features |
-| CL18 | G5 | Updated Goals | Jun Xiang | 6/18/2025 | 3.8.9. Features |
-| CL19 | CD04 , CD06 | Removed defects according to requirement | Jun Xiang | 6/18/2025 | 3.8.2 Defect Summary |
-| CL20 | CD15 | Defects found | Tze Yuan | 6/18/2025 |  3.1 functions , 3.2 use case specification |
+| Change ID |	Req ID | Summary of Change | Proposed By | Date | Session ID | Session Reference |
+| ------- | -------- | ------- | ------ | ----- | ------| ----- |
+| CL01 | CD01,CD02,DD01,DD02,DD03,AD01,AD02 | Defects Found | Tze Yuan | 6/7/2025 | VS01 | 3.8.2 Defect Summary | 
+| CL02 | - | reformat SRS.md according to template | Tze Yuan | 6/9/2025 | not present | - |
+| CL03 | CD03,CD04,CD05,CD06,DD04,DD05,DD06,AD03 | Defects Found | Jun Xiang | 6/10/2025 | VS01 | 3.8.2 Defect Summary |
+| CL04 | CD07,CD08,CD09,DD07,DD08,AD04 | Defects Found | Desmond Goh | 6/10/2025 | VS01 | 3.8.2 Defect Summary |
+| CL05 | CD10, CD11, CD12, CD13, DD09, DD10, AD05 | Defects Found | Mun Kit | 6/10/2025 | VS01 | 3.8.2 Defect Summary |
+| CL06 | CONF01,CONF02 | Analyze conflict | Tze Yuan | 6/11/2025 | VS01 | 3.8.3 Conflict Analysis |
+| CL07 | CD02 | Removed defects according to requirement | Tze Yuan | 6/12/2025 | VS01 | 3.8.2 Defects Summary |
+| CL08 | CONF01, CONF02 | Done conflict resolution for CONF01 and CONF02 | Tze Yuan | 6/12/2025 | VS01 | 3.8.4 Conflict Resolution |
+| CL09 | CONF03, CONF04 | Analyze conflicts for CONF03 and CONF04 | Jun Xiang | 6/13/2025 | VS01 | 3.8.3 Conflict Analysis |
+| CL10 | CONF03, CONF04 | Done conflict resolution for CONF03 and CONF04 | Jun Xiang | 6/13/2025 | VS01 | 3.8.4 Conflict Resolution |
+| CL11 | CD09 | Removed defects according to requirement | Desmond Goh | 6/14/2025 | VS01 | 3.8.2 Defects Summary |
+| CL12 | CONF05 | Done conflict analyze and conflict resolution for CONF05 | Desmond Goh | 6/14/2025 | VS01 | 3.8.4 Conflict Resolution |
+| CL13 | CONF06 | Done conflict analyze and conflict resolution for CONF06 | Mun Kit | 6/16/2025 | VS01 | 3.8.3 Conflict Analysis, 3.8.4 Conflict Resolution |
+| CL14 | CD14 | Defects found, 3.8.10 Goals and 3.8.9 Features Table added | Jun Xiang | 6/17/2025 | VS01 |  3.8.2 Defect Summary |
+| CL15 | G1,G2, F1,F2,F3,F4,F5,F6 | Added some goals and features | Desmond Goh | 6/17/2025 | VS01 | 3.8.9 Goals, 3.8.10 Features |
+| CL15 | F6,F7,F8,F9,F10,F11 | Added some features | Jun Xiang | 6/17/2025 | VS01 | 3.8.10 Features |
+| CL16 | F12,F13,F14,F15,F16,F17,F18,F19,F20 | Added some features | Tze Yuan | 6/18/2025 | VS01 | 3.8.10 Features |
+| CL17 | G3,G4 | Updated Goals | Tze Yuan | 6/18/2025 | VS01 | 3.8.9. Features |
+| CL18 | G5 | Updated Goals | Jun Xiang | 6/18/2025 | VS01 | 3.8.9. Features |
+| CL19 | CD04 , CD06 | Removed defects according to requirement | Jun Xiang | 6/18/2025 | VS01 | 3.8.2 Defect Summary |
+| CL20 | CD15 | Defects found | Tze Yuan | 6/18/2025 | VS02 |  3.1 functions , 3.2 use case specification |
+| CL21 | - | reformat SRS.md by adding new column beside session ID | Jun Xiang | 6/18/2025 | not present | - |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
