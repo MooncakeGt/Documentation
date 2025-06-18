@@ -1750,7 +1750,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL20 | CD15 | Defects found | Tze Yuan | 6/18/2025 | VS02 |  3.1 functions , 3.2 use case specification |
 | CL21 | - | reformat SRS.md by adding new column beside session ID | Jun Xiang | 6/18/2025 | not present | - |
 | CL22 | - | validation session updated | Jun Xiang | 6/18/2025 | not present | - |
-| CL23 | - | update prioritization | Tze Yuan | 6/18/2025 | not present in SRS | 3.8.11 Prioritization |
+| CL23 | - | updated prioritization | Tze Yuan | 6/18/2025 | not present in SRS | 3.8.11 Prioritization |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
@@ -1784,6 +1784,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | V1.14   | Jun Xiang | 6/18/2025 | remove unnecessary defects due to sufficient mention or lower priority impact in the current SRS scope .|
 | V1.15   | Tze Yuan  | 6/18/2025 | defects found |
 | V1.16   | Jun Xiang | 6/18/2025 | reformat SRS by adding extra column,validation session updated  |
+| V1.17   | Tze Yuan  | 6/18/2025 | done 3.8.11 Prioritization |
 
 ### 3.8.9 Goals
 | Goals ID | Goals Description |
@@ -1827,20 +1828,20 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | Real-time Vehicle Tracking |     F4     | Must | Key of ride safety, transparency, and user experience. |
 | Fare Estimation and Cost Splitting |     F5     | Should | Enhances fairness and usability, but users can technically still use the system without it. |
 | Payment and Wallet Integration |     F6     | Must | Multiple payment methods, billing, and history enhance reliability, and usability. |
-| Ratings and Feedback |     F7     |  |  |
-| Safety and Emergency Tools |     F8     |  |  |
-| Real-Time Parking Availability |     F9     |  |  |
-| Parking Reservation and Permit Management |     F10    |  |  |
-| Automated Gate Access |     F11    |  |  |
-| Parking Navigation |     F12    |  |  |
-| Parking History Record |     F13    |  |  |
-| Centralized Dashboard for Admin |     F14    |  |  |
-| Analysis and report generator |     F15    |  |  |
-| App content management |     F16    |  |  |
-| System Configuration |     F17    |  |  |
-| User Support and Dispute Management |     F18    |  |  |
-| System Policy and Permission Management |     F19    |  |  |
-| Alert notification and maintenance issues |     F20    |  |  |
+| Ratings and Feedback |     F7     | Could | an additional feature, its exist or not will not affect the user experience. Can be added after launch. |
+| Safety and Emergency Tools |     F8     | Must | Ensure user safety while improving security. |
+| Real-Time Parking Availability |     F9     | Must | One of the core feature of this project and necessary for user planning. |
+| Parking Reservation and Permit Management |     F10    | Must |	Strongly tied to the project’s objective |
+| Automated Gate Access |     F11    | Could | Improves convenience but parking system can work without it. |
+| Parking Navigation |     F12    | Could | Adds convenience; not critical for parking functionality. |
+| Parking History Record |     F13    | Could | Helpful for tracking, but not essential for parking use. |
+| Centralized Dashboard for Admin |     F14    | Must | Required for system monitoring and operations by admin. |
+| Analysis and report generator |     F15    | Should | Important for decision making and future planning. |
+| App content management |     F16    | Should | Enable send notifications to users and answer users's questions |
+| System Configuration |     F17    | Must | Essential for admin to update fare or rules |
+| User Support and Dispute Management |     F18    | Should | Important for admin to solve user problems but app can run without it. |
+| System Policy and Permission Management |     F19    | Must | Important for admin control over user roles and system security. |
+| Alert notification and maintenance issues |     F20    | Could | Improves admin awareness but not essential at launch. |
 
 ## 4.1Verification Approach:
 
