@@ -1671,10 +1671,8 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | ----------- | -------- | ------- | ------ | ----- |
 | CD01.  | No mention of requirement prioritization, stability, or criticality levels. Like, must, should, could. | Not present in SRS | Tze Yuan | 3 |
 | CD03.  | No defined behaviour or fallback when GPS or real-time vehicle tracking fails.   |3.1 Functions/Geolocation & Vehicle Tracking |Jun Xiang   | 4 |
-| CD04.  | No specification on frequency or process for driver background checks.|3.1 Functions/Emergency Features & Admin Role|Jun Xiang| 3 |
 | CD05.  | No error handling defined for failed parking sensor/gate integrations|3.1 Functions/Parking Management|Jun Xiang| 4 |
-| CD06.  | Accessibility requirements are only discussed for user-facing interfaces, not for admin dashboards.|3.4.2 User Interfaces|Jun Xiang| 4 |
-| CD07.  | No mention of data types for entity attributes. | 3.5 Logical Database Requirements|Desmond Goh| 4 | 
+| CD07.  | No mention of data types for entity attributes. | 3.5 Logical Database Requirements|Desmond Goh| 4 |
 | CD08.  | No design constraint mention on multilingual support. | 3.6 Design Constraints|Desmond Goh| 2 |
 | CD10.  | Purpose is too generic and lacks measurable success criteria. | 1.1 Purpose | Mun Kit | 3 |
 | CD11.  | Scope does not mention system boundaries or out-of-scope items. | 1.2 Scope | Mun Kit | 3 |
@@ -1747,6 +1745,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | CL16 | F12,F13,F14,F15,F16,F17,F18,F19,F20 | Added some features | Tze Yuan | 6/18/2025 | 3.8.10 Features |
 | CL17 | G3,G4 | Updated Goals | Tze Yuan | 6/18/2025 | 3.8.9. Features |
 | CL18 | G5 | Updated Goals | Jun Xiang | 6/18/2025 | 3.8.9. Features |
+| CL19 | CD04 , CD06 | Removed defects according to requirement | Jun Xiang | 6/18/2025 | 3.8.2 Defect Summary |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
@@ -1777,6 +1776,7 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | V1.12   | Tze Yuan | 6/18/2025 | Added some features in 3.8.10. Features |
 | V1.13   | Tze Yuan | 6/18/2025 | updated Goals |
 | V1.13   | Jun Xiang | 6/18/2025 | updated Goals |
+| V1.14   | Jun Xiang | 6/18/2025 | remove unnecessary defects due to sufficient mention or lower priority impact in the current SRS scope .|
 
 
 
