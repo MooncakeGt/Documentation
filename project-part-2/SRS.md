@@ -1654,10 +1654,6 @@ Security of Media/Code: While not a specific packaging instruction, all code rep
 
 These packaging and deployment instructions are considered part of the non-functional requirements, specifically falling under Portability and Maintainability, as they dictate how the software will be delivered and managed. No explicit export restrictions for the code or media are specified in the provided documents.
 
-# Verification Approach & Criteria
-
-This section outlines the strategies and benchmarks used to verify that the Campus Ride sharing platform with Parking System Integration meets its intended requirements. Each verification phase is designed to validate system behavior, performance, usability, and compliance under real-world and stress conditions. The goal is to ensure the platform is robust, secure, user friendly, and aligned with MMU’s operational and regulatory standards.
-
 ### 3.8.1 Validation Session
 | Session ID | Date and Time | Technique | Section Reviewed | Participant & Role | No. of Defect |
 | ------- | -------- | ------- | ------- | -------- | -------- |
@@ -1842,6 +1838,10 @@ This section outlines the strategies and benchmarks used to verify that the Camp
 | User Support and Dispute Management |     F18    | Should | Important for admin to solve user problems but app can run without it. |
 | System Policy and Permission Management |     F19    | Must | Important for admin control over user roles and system security. |
 | Alert notification and maintenance issues |     F20    | Could | Improves admin awareness but not essential at launch. |
+
+# 4.Verification Approach & Criteria
+
+This section outlines the strategies and benchmarks used to verify that the Campus Ride sharing platform with Parking System Integration meets its intended requirements. Each verification phase is designed to validate system behavior, performance, usability, and compliance under real-world and stress conditions. The goal is to ensure the platform is robust, secure, user friendly, and aligned with MMU’s operational and regulatory standards.
 
 ## 4.1Verification Approach:
 
