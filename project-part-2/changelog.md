@@ -22,7 +22,7 @@
 | reformat SRS.md by adding a new column on beside session ID | 6/18/2025 | Jun Xiang | better follow template formation |
 | validation session updated                       |  6/18/2025 | Jun Xiang    | contribution updated     |
 | completed prioritization                         |  6/18/2025 | Tze Yuan     |  Revise SRS based on defects found |
-|                                                  |            |              |                          |
+| added defects AD06, removed defects CD10, CD11, CD13, edited CONF06  | 6/22/2025   | Mun Kit     |  Defects found, defects removed and done conflicts resolution |
 |                                                  |            |              |                          |
 |                                                  |            |              |                          |
 |                                                  |            |              |                          |

@@ -1670,10 +1670,7 @@ These packaging and deployment instructions are considered part of the non-funct
 | CD05.  | No error handling defined for failed parking sensor/gate integrations|3.1 Functions/Parking Management | VS02 | Jun Xiang| 4 |
 | CD07.  | No mention of data types for entity attributes. | 3.5 Logical Database Requirements | VS01 |Desmond Goh| 4 |
 | CD08.  | No design constraint mention on multilingual support. | 3.6 Design Constraints | VS01 | Desmond Goh| 2 |
-| CD10.  | Purpose is too generic and lacks measurable success criteria. | 1.1 Purpose | VS01 | Mun Kit | 3 |
-| CD11.  | Scope does not mention system boundaries or out-of-scope items. | 1.2 Scope | VS01 | Mun Kit | 3 |
 | CD12.  | MFA authentication lists for all roles, but does not explain methods. | 3.7 Software System Attributes | VS01 | Mun Kit | 3 |
-| CD13.  | Cost analysis studies are not included.   | 3.8 Supporting Information | VS01 | Mun Kit | 3 |
 | CD14.  | No mention of features and goals. | Not present in SRS | Not present in SRS | Jun Xiang | 4 |
 | CD15.  | Inconsistent and different naming in use-case digram and use-case name | 3.1 functions , 3.2 use case specification | VS02 | Tze Yuan | 2 |
 
@@ -1698,7 +1695,7 @@ These packaging and deployment instructions are considered part of the non-funct
 | AD02.  | No versioning, approval history, or record of changes. | Not present in SRS | Not present in SRS | Tze Yuan | 1 |
 | AD03.  | No record of stakeholder sign-off or approval indicating that all parties agreed to the final set of requirements.|Not present in SRS| Not present in SRS | Jun Xiang| 4 |
 | AD04.  | IOS/Android platform support mentioned but not clearly linked to user types.| 3.6 Design Constraints | VS01 | Desmond Goh| 2 |
-| AD05.  | References lacks citations for internal sources like survey/interview data. | 2 Reference | VS01 | Mun Kit | 2 |
+| AD06.  | Cost analysis studies are not included.   | 3.8 Supporting Information | VS01 | Mun Kit | 3 |
 
 ### 3.8.3 Conflict Analysis
 | Conflict ID | Conflict Description | Conflict Analysis | Stakeholders Involved | Session ID | Session Reference |
@@ -1708,7 +1705,7 @@ These packaging and deployment instructions are considered part of the non-funct
 | CONF03  | The system assumes all users have reliable internet and GPS-enabled devices  | May exclude or frustrate users with older devices or unstable networks, conflicting with usability goals.  | Riders, Drivers  | VS01 | 1.3.3 User Characteristics  |
 | CONF04 |  Admins are expected to manage user disputes, but the system lacks formal features for dispute tracking/resolution. | Without dedicated tools, this may increase support load and leave disputes unresolved.| Admins, Riders, Drivers | VS02 | 3.1 Functions|
 | CONF05 | Section 3.5 includes real-time notification features, but Section 3.6 does not mention any constraints or technology support for real-time delivery. | User may receive delayed or unreliable notifications. | Users | VS01 | 3.5 Logical Requirements, 3.6 Design Constraints|
-| CONF06 | Section 3.8 Cost analysis is listed as missing, but the SRS doesn’t mention whether one is planned or not needed. | A key project planning component is missing without justification. | Admin | VS01 | 3.8 Supporting Information|
+| CONF06 | 	Section 3.8 states that cost analysis is not included, but it does not clarify whether the costs associated with essential privacy safeguards (e.g., encryption, data protection compliance) are planned for in future phases. |  Omitting any cost-related planning for privacy and compliance could create risk and uncertainty about the system’s ability to meet PDPA obligations. | Admin | VS01 | 3.8 Supporting Information|
 
 ### 3.8.4 Conflict Resolution
 | Conflict ID | Conflict Resolution Strategy | Resolved (Y/N) | Outcome (If Resolved) | Justification |
@@ -1718,7 +1715,7 @@ These packaging and deployment instructions are considered part of the non-funct
 | CONF03 | Implement an offline-mode warning and a fallback manual ride/parking request flow when GPS or internet is unavailable. | N | Feature not yet implemented. Users without connectivity may face degraded experience. | Requires further development and stakeholder review; currently tracked as a usability risk.|
 | CONF04 | Add a dispute management module for admins, including case logging, resolution history, and escalation workflows. | N | Feature identified for future release. Admins currently handle disputes manually via support tickets. | Resource constraints delayed implementation; included in backlog based on admin feedback.|
 | CONF05 | Add a real-time delivery requirements (notifications should be delivered within 5 seconds). | N | Notifications may still be delayed or inconsistent depending on future design decisions. | Real-time notifications are important for user experience, but current design does not gurantee delivery speed.Futher development is required.|
-| CONF06 | Add a clarification in Section 3.8: “No cost analysis was conducted for this phase; budget-related evaluation will be included during the system design phase if required.” | Y | No formal cost analysis has been conducted as part of this SRS. Stakeholders have agreed to focus on technical feasibility and user requirements in this phase. Budgetary evaluation will be addressed during the system design or procurement phase if required. | The statement ensures that all stakeholders understand the scope limitations of this SRS, while also setting clear expectations for when cost considerations will be addressed—namely, during the system design or procurement stage. |
+| CONF06 | 	Add a clarification in Section 3.8: “No cost analysis has been conducted for this phase; however, privacy-related compliance costs (e.g., encryption, secure hosting, audit tools) will be evaluated.” | N | The budgeting for privacy and data protection will be addressed in alignment with PDPA compliance expectations will be addressed in design or development stage. | The statement ensures that all stakeholders understand that while overall cost analysis is deferred, critical privacy related expenses are acknowledged and will be planned appropriately, supporting both legal compliance and user trust. |
 
 ### 3.8.5 Change Log
 | Change ID |	Related ID | Summary of Change | Proposed By | Date | Session ID | Session Reference |
@@ -1747,6 +1744,9 @@ These packaging and deployment instructions are considered part of the non-funct
 | CL21 | - | reformat SRS.md by adding new column beside session ID | Jun Xiang | 6/18/2025 | not present | - |
 | CL22 | - | validation session updated | Jun Xiang | 6/18/2025 | not present | - |
 | CL23 | - | updated prioritization | Tze Yuan | 6/18/2025 | not present in SRS | 3.8.11 Prioritization |
+| CL24 | CD10, CD11, CD13 | Removed defects according to requirement | Mun Kit | 6/22/2025 | VS03 | 1.1 Purpose, 1.2 Scope, 3.8 Supporting Information |
+| CL25 | CONF06 | Edited conflict analyze and conflict resolution for CONF06 | Mun Kit | 6/22/2025 | VS03 | 3.8 Supporting Information |
+| CL26 | AD06 | Defects Found | Mun Kit | 6/22/2025 | VS03 | 3.8 Supporting Information |
 
 ### 3.8.6 Requirements Traceability Matrix
 | Req ID | Requirement Description | Linked Goal(s) | Feature(s) | Use Case(s) | Traceability Score (1-4) |
@@ -1781,6 +1781,7 @@ These packaging and deployment instructions are considered part of the non-funct
 | V1.15   | Tze Yuan  | 6/18/2025 | defects found |
 | V1.16   | Jun Xiang | 6/18/2025 | reformat SRS by adding extra column,validation session updated  |
 | V1.17   | Tze Yuan  | 6/18/2025 | done 3.8.11 Prioritization |
+| V1.18   | Mun Kit | 6/22/2025 | remove unnecessary defects, update conflict resolution, defect found |
 
 ### 3.8.9 Goals
 | Goals ID | Goals Description |
